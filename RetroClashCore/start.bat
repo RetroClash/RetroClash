@@ -1,0 +1,2 @@
+dotnet RetroClashCore.dll
+pause

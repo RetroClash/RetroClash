@@ -1,0 +1,2234 @@
+{
+  "files": [
+    {
+      "file": "csv_client/background_decos.csv",
+      "sha": "98e2e6b7c103a125c841a67fe38c8292ef0cd4bc"
+    },
+    {
+      "file": "csv_client/billing_packages.csv",
+      "sha": "5dbe693e27d49f36adedce92e7805982f50b0289"
+    },
+    {
+      "file": "csv_client/client_globals.csv",
+      "sha": "fca1aac3580bdf3daa6ceee6c6eaf7b2bb332317"
+    },
+    {
+      "file": "csv_client/credits.csv",
+      "sha": "4244f1c15e77b9eee11117b52455f953a4cb718c"
+    },
+    {
+      "file": "csv_client/effects.csv",
+      "sha": "3570d52a4abbcca1d61e9654dad9f4d64bbaa0c7"
+    },
+    {
+      "file": "csv_client/health_bars.csv",
+      "sha": "4cf2b7199f431ce68c47f9a2ddab9dff1e4056d6"
+    },
+    {
+      "file": "csv_client/helpshift.csv",
+      "sha": "4000f59c2ed55f1b49eaae8c620bf7d79b3bf8d2"
+    },
+    {
+      "file": "csv_client/hints.csv",
+      "sha": "9050fc7510515de7d217202fca43e82a7b7efa2a"
+    },
+    {
+      "file": "csv_client/music.csv",
+      "sha": "eda489dc7bc4e7be5107616c056bf357433cd0c7"
+    },
+    {
+      "file": "csv_client/news.csv",
+      "sha": "d1d03196fefc30adedb3777a448d23cd3a189fa8"
+    },
+    {
+      "file": "csv_client/particle_emitters.csv",
+      "sha": "2c99d843cac2c678b81c30f9542b23eb5659cec0"
+    },
+    {
+      "file": "csv_client/sorted_regions/CNT_regions.csv",
+      "sha": "0c89034e8c7470ca969800cd880c159c4b75d061"
+    },
+    {
+      "file": "csv_client/sorted_regions/CN_regions.csv",
+      "sha": "aaeef7b822d17d1eb51cf470e2131fc485cfefc0"
+    },
+    {
+      "file": "csv_client/sorted_regions/JP_regions.csv",
+      "sha": "e855390680245fcd2fdea6350748f3e7a945f910"
+    },
+    {
+      "file": "csv_client/sorted_regions/KR_regions.csv",
+      "sha": "ca21aed29fef76b1389034af7c9d89c98a6555dc"
+    },
+    {
+      "file": "csv_client/sounds.csv",
+      "sha": "33dd9ac9309bd8adcc1eab815e48ef092fd6d2ff"
+    },
+    {
+      "file": "csv_client/texts.csv",
+      "sha": "b1eaf1168faf22a0f6abca54633acba2a75d23f4"
+    },
+    {
+      "file": "csv_client/texts_patch.csv",
+      "sha": "c9163d06ed3b554848704f79f2760179d82c0819"
+    },
+    {
+      "file": "csv_logic/achievements.csv",
+      "sha": "4534e95cb5f001719a6119a092459dc826965d60"
+    },
+    {
+      "file": "csv_logic/alliance_badges.csv",
+      "sha": "5073c1bb84692ccafcc33e905c421d36fa7af4e3"
+    },
+    {
+      "file": "csv_logic/alliance_roles.csv",
+      "sha": "4f5f1f4156286f92bba15a3442ac090822c8f3a0"
+    },
+    {
+      "file": "csv_logic/area_effect_objects.csv",
+      "sha": "a6884efabc8d0b7bfe903ea9d97d977c9ecdec26"
+    },
+    {
+      "file": "csv_logic/arenas.csv",
+      "sha": "7f87c9e616a8f663cd81738a490aa5bff97dbaf2"
+    },
+    {
+      "file": "csv_logic/buildings.csv",
+      "sha": "c7ec2d22d945f418c8c37305c884acfcfdb10240"
+    },
+    {
+      "file": "csv_logic/character_buffs.csv",
+      "sha": "808ffc600df9b75c8df8deb34620b403462fb425"
+    },
+    {
+      "file": "csv_logic/characters.csv",
+      "sha": "93ea51ccc99d08309bde380575fb2b3d0a5cb8e8"
+    },
+    {
+      "file": "csv_logic/chest_order.csv",
+      "sha": "c96a9e6071a428e76fb583c899838a3aa7a1debb"
+    },
+    {
+      "file": "csv_logic/damage_types.csv",
+      "sha": "4d2e2c2782aa320b6c94de668658df74be633b20"
+    },
+    {
+      "file": "csv_logic/decos.csv",
+      "sha": "49238c06a9fc3ce27d8878c21241630adf07f7be"
+    },
+    {
+      "file": "csv_logic/eggs.csv",
+      "sha": "2c9c2b0a1ac6af8cbc0f938ba2426d9341942e4c"
+    },
+    {
+      "file": "csv_logic/exp_levels.csv",
+      "sha": "7d7b3c3b2caad8866d1a234e609fb9160a2837d1"
+    },
+    {
+      "file": "csv_logic/gamble_chests.csv",
+      "sha": "784b5d6119af9f8227c310267fe869305d1f0d45"
+    },
+    {
+      "file": "csv_logic/globals.csv",
+      "sha": "f8268a8e254d89c6cf29e089aaefada4cacd4439"
+    },
+    {
+      "file": "csv_logic/locales.csv",
+      "sha": "f8412e0c8d929242d33888633810d06cf7042546"
+    },
+    {
+      "file": "csv_logic/locations.csv",
+      "sha": "e2cd25e6394eeebcb023a7b5aa65d96d5053a9ce"
+    },
+    {
+      "file": "csv_logic/npcs.csv",
+      "sha": "7a447a691f03fb8a898716cd1fe51ba6f9bd297a"
+    },
+    {
+      "file": "csv_logic/predefined_decks.csv",
+      "sha": "9d54bde71541efa4b7759cb143238b758c196e3b"
+    },
+    {
+      "file": "csv_logic/projectiles.csv",
+      "sha": "b02cccf1fcec61ace45aa923e15c9fa78c8bdc00"
+    },
+    {
+      "file": "csv_logic/rarities.csv",
+      "sha": "37a77189a85a89cecafd6be98843ada62e85eed2"
+    },
+    {
+      "file": "csv_logic/regions.csv",
+      "sha": "0d1d0fa23d623e48e1ae1ffe0fc8f081b6d7dc38"
+    },
+    {
+      "file": "csv_logic/resource_packs.csv",
+      "sha": "9778fda8ea2fe1fcb18c0d4951241e0b235c8c7f"
+    },
+    {
+      "file": "csv_logic/resources.csv",
+      "sha": "2c9ac173ee19ea3924e1978eab455f6ab1839754"
+    },
+    {
+      "file": "csv_logic/spawn_points.csv",
+      "sha": "7ad4788f66738be5574dfc79044a3dede17ed18e"
+    },
+    {
+      "file": "csv_logic/spell_sets.csv",
+      "sha": "97c329d62dbc0ef28f18fd144cf4f24e05c705dd"
+    },
+    {
+      "file": "csv_logic/spells_buildings.csv",
+      "sha": "cd4013f44983b7a673c6991a0ca70d31ee73be61"
+    },
+    {
+      "file": "csv_logic/spells_characters.csv",
+      "sha": "643289c81d32ff6b20217a0ed2040d9a7e7d695c"
+    },
+    {
+      "file": "csv_logic/spells_other.csv",
+      "sha": "20ee51a5cefe4f26b348e3240c776e2fdbbf7da6"
+    },
+    {
+      "file": "csv_logic/taunts.csv",
+      "sha": "b0d21212e66a53cb68925143dbac94fccf6fa523"
+    },
+    {
+      "file": "csv_logic/treasure_chests.csv",
+      "sha": "5736fddf190c129090271053d1e720d1e833d48c"
+    },
+    {
+      "file": "csv_logic/tutorials_home.csv",
+      "sha": "09ceadf161139542a6a25fda7dbec67dbdc2949d"
+    },
+    {
+      "file": "csv_logic/tutorials_npc.csv",
+      "sha": "6258bb8504a55345910c7ded26f3a9076e2ba27c"
+    },
+    {
+      "file": "font/NotoNaskhArabic-Bold.ttf",
+      "sha": "9515989125309566cf2c4a5a84d7e498f853939f"
+    },
+    {
+      "file": "font/debug.fnt",
+      "sha": "719870d4573b1267eba821b4a5498b5505139ce9"
+    },
+    {
+      "file": "font/debug.png",
+      "sha": "09b88ec785c9997ccd6598fb6678927f131c7fe2"
+    },
+    {
+      "file": "font/sc_ccbackbeatregular.ttf",
+      "sha": "7517c37cb987dab125b20fa4ab62498ad71e9024"
+    },
+    {
+      "file": "font/supercell-magic_0.ttf",
+      "sha": "0c734b9104a7a1dcd8b4cab3fe3b5409e085d367"
+    },
+    {
+      "file": "image/range.png",
+      "sha": "82aeace9f21d6a04f93449a975f742e4b4d538b1"
+    },
+    {
+      "file": "level/starting_home.json",
+      "sha": "4f93d9c2be4ca88eab38e7fc208333cb3907f90c"
+    },
+    {
+      "file": "locations/barbarian_arena.csv",
+      "sha": "046e02de9ae274d53d616e2b34537647a42a6ebf"
+    },
+    {
+      "file": "locations/bone_arena.csv",
+      "sha": "afbb25a405437f5bfb551fb53027d1da0c6f5a92"
+    },
+    {
+      "file": "locations/builder_arena.csv",
+      "sha": "c9522fb82bd1b1f478eb0d2f6e84b908b94d8154"
+    },
+    {
+      "file": "locations/dark_arena.csv",
+      "sha": "6bad2803e3d58216143b547c6c3bfdc8c4f7ab56"
+    },
+    {
+      "file": "locations/goblin_arena.csv",
+      "sha": "1a25a3bb4bb288cdd8201f821aeb7d1df9c3a0a1"
+    },
+    {
+      "file": "locations/legendary_arena.csv",
+      "sha": "13d04081c81f8b899f33448ab82785dcd232cbde"
+    },
+    {
+      "file": "locations/royal_arena.csv",
+      "sha": "b3215ba01751d2638e3f8e65782d2820c99e7947"
+    },
+    {
+      "file": "locations/spell_arena.csv",
+      "sha": "cd1475a16324b89cf878ba2e786eab7900dbbcb2"
+    },
+    {
+      "file": "locations/training_arena.csv",
+      "sha": "c557c1c125ccb1e4d92a11b155d670f4d1ea0469"
+    },
+    {
+      "file": "music/2min_loop_battle_01.ogg",
+      "sha": "df4421b876604c300e19dbf00ea9f0a650136fa3"
+    },
+    {
+      "file": "music/2min_loop_battle_02.ogg",
+      "sha": "d6997cb04ffe6ef34fa67d0e944583e052cd7f39"
+    },
+    {
+      "file": "music/2min_loop_battle_03.ogg",
+      "sha": "be097aa4f3056b6af4c54bd6a28054382e8afac3"
+    },
+    {
+      "file": "music/30_sec_music_loop_01.ogg",
+      "sha": "b636bc92196f4ec3d2485b63375c3521e53b8817"
+    },
+    {
+      "file": "music/60_sec_music_loop_01.ogg",
+      "sha": "96c506a2e941adf4b7774d16a4c322813cf28859"
+    },
+    {
+      "file": "music/60secs_training_Arena_01.ogg",
+      "sha": "a2c3a2bd0ac717830e8647bd31ddeddeaef21bd8"
+    },
+    {
+      "file": "music/ios/2min_loop_battle_01.m4a",
+      "sha": "0a1516c66294f871491d652cd38318036d7e9ede"
+    },
+    {
+      "file": "music/ios/2min_loop_battle_02.m4a",
+      "sha": "43b0c1f3cb52d8b1f7e14084328f790e1e198496"
+    },
+    {
+      "file": "music/ios/2min_loop_battle_03.m4a",
+      "sha": "9ac0d8424f4363d2564b72db69afdf1f92920f8a"
+    },
+    {
+      "file": "music/ios/30_sec_music_loop_01.m4a",
+      "sha": "02d432ed7c7b8ee00175feef280e06b08230e1c8"
+    },
+    {
+      "file": "music/ios/60_sec_music_loop_01.m4a",
+      "sha": "0b696f91e325e56b48b0c0daf1088db0bb65b888"
+    },
+    {
+      "file": "music/ios/60secs_training_Arena_01.m4a",
+      "sha": "44cdece79da5938bb309d2b99b8139e87075bcbf"
+    },
+    {
+      "file": "music/ios/menu_03.m4a",
+      "sha": "f2ae672f447ae9fcec424ae98a368ad90fde8e5b"
+    },
+    {
+      "file": "music/ios/new_menu_01.m4a",
+      "sha": "072695e9520b1cb6077ab019757ee7225033334b"
+    },
+    {
+      "file": "music/ios/scroll_draw_01.m4a",
+      "sha": "5ef60d9e66eb6a02c35558aa9da851df2e960151"
+    },
+    {
+      "file": "music/ios/scroll_lose_01.m4a",
+      "sha": "12b5253923a1250e045ad3529ae0eb166807300a"
+    },
+    {
+      "file": "music/ios/scroll_post_jingle_loop_01.m4a",
+      "sha": "69bd914d7b83deae454672c26fea985a934f5489"
+    },
+    {
+      "file": "music/ios/scroll_preresult_loop_01.m4a",
+      "sha": "f47fc3abeeb701ee772f715171570d7bab4c45b2"
+    },
+    {
+      "file": "music/ios/scroll_win_02.m4a",
+      "sha": "e2187dba0c176533dca461ecf07b89a2364a74f8"
+    },
+    {
+      "file": "music/ios/sudden_death_01.m4a",
+      "sha": "e36f8779aa7dcce4b7a1348931b30e61dd0cc049"
+    },
+    {
+      "file": "music/ios/tutorial_2m_arena_forest_amb_01.m4a",
+      "sha": "c9a5ef4a1f66e7cbbd406e99a4ece41fdd322ef5"
+    },
+    {
+      "file": "music/ios/wizmen04.m4a",
+      "sha": "87357177698d84bae6f01caeabdb74eef003dcce"
+    },
+    {
+      "file": "music/menu_03.ogg",
+      "sha": "7be8927ffb848fdc0b03ed08d0aadc607b77f30b"
+    },
+    {
+      "file": "music/new_menu_01.ogg",
+      "sha": "1704dd290926c8524ade2f519d81a530fb4f1812"
+    },
+    {
+      "file": "music/scroll_draw_01.ogg",
+      "sha": "c6198e24cbea219c7cda358cb04b690fb4c5f204"
+    },
+    {
+      "file": "music/scroll_lose_01.ogg",
+      "sha": "16877fb9deeed7fc84a315de89777af00dfb8cea"
+    },
+    {
+      "file": "music/scroll_post_jingle_loop_01.ogg",
+      "sha": "4cdaf5a8e1f38aa90606c06e5c23ea4107c5d8b8"
+    },
+    {
+      "file": "music/scroll_preresult_loop_01.ogg",
+      "sha": "b7095c668de13dde84f307abd6b4ce9b10196619"
+    },
+    {
+      "file": "music/scroll_win_02.ogg",
+      "sha": "786713a6995712abe2b2e00fa991e9a9fb12f99b"
+    },
+    {
+      "file": "music/sudden_death_01.ogg",
+      "sha": "46e287d82674c445c48fa87ef041c37fa6ac4fcd"
+    },
+    {
+      "file": "music/tutorial_2m_arena_forest_amb_01.ogg",
+      "sha": "b431c79d9ba760a359fa65a638886683fbe0429f"
+    },
+    {
+      "file": "music/wizmen04.ogg",
+      "sha": "31ca9100f778d3c4c463270473e5b92e7809d10a"
+    },
+    {
+      "file": "sc/arena_training.sc",
+      "sha": "83e82305b35287f494c0de75da2a97e1ea2e3461"
+    },
+    {
+      "file": "sc/arena_training_tex.sc",
+      "sha": "01042816df0f0ff3ae343842f550b7c42194bb7b"
+    },
+    {
+      "file": "sc/building_barbarian_hut.sc",
+      "sha": "f66e9953151762720750863d4fbb828d973da907"
+    },
+    {
+      "file": "sc/building_barbarian_hut_tex.sc",
+      "sha": "04305410c203449dcbec82a4b2dc642c1c333ac4"
+    },
+    {
+      "file": "sc/building_basic_cannon.sc",
+      "sha": "e72d905fa7af61cea57cbe7fb637a92a08cac716"
+    },
+    {
+      "file": "sc/building_basic_cannon_tex.sc",
+      "sha": "de3f83b803b7ecdfcf529d2b13d4926f2bb182a2"
+    },
+    {
+      "file": "sc/building_bomb_tower.sc",
+      "sha": "b84aada1b3da6fc9dbfc53389672f8cd9e7aebe6"
+    },
+    {
+      "file": "sc/building_bomb_tower_tex.sc",
+      "sha": "f467517f29f6d106bc1d3211f31ea6a0296a49fc"
+    },
+    {
+      "file": "sc/building_elixir_collector.sc",
+      "sha": "460f0f78c0867e62220a77403f1f8dcaa9eedb14"
+    },
+    {
+      "file": "sc/building_elixir_collector_tex.sc",
+      "sha": "570ca86eae20811dbcf7bcbfa18549efd17ef2da"
+    },
+    {
+      "file": "sc/building_goblin_hut.sc",
+      "sha": "0b53eadb2260613636a40ff673ef6cbe6f035eb1"
+    },
+    {
+      "file": "sc/building_goblin_hut_tex.sc",
+      "sha": "c568cc1a957fcd50d00973cb224a9162efbc3ea3"
+    },
+    {
+      "file": "sc/building_inferno_tower.sc",
+      "sha": "8ec2d4a659437716df44658757dd7258649a080d"
+    },
+    {
+      "file": "sc/building_inferno_tower_tex.sc",
+      "sha": "05e7e1350cf850fae0f229b728ebc8e88f56b99e"
+    },
+    {
+      "file": "sc/building_mega_bomb.sc",
+      "sha": "7160bdbcb3afe0bd10751a2ba063371769652a9c"
+    },
+    {
+      "file": "sc/building_mega_bomb_tex.sc",
+      "sha": "3034f5227ebfe9840b6416fe14ea22347f5a331c"
+    },
+    {
+      "file": "sc/building_mortar.sc",
+      "sha": "004ddbbb6aae212fc4fd5e5505f4cb8275943f93"
+    },
+    {
+      "file": "sc/building_mortar_tex.sc",
+      "sha": "439323c866c8f2f0c538d0ebf95f69dd2bea5d1c"
+    },
+    {
+      "file": "sc/building_tesla.sc",
+      "sha": "b64736ba5eb7cf6b21b3f78c47192894cb869af7"
+    },
+    {
+      "file": "sc/building_tesla_tex.sc",
+      "sha": "9dd55ce790d3b4f7623d19a44e9566be44da9bb4"
+    },
+    {
+      "file": "sc/building_tombstone.sc",
+      "sha": "6373165004eb20dfa70297c9551ede12b9f69fa5"
+    },
+    {
+      "file": "sc/building_tombstone_tex.sc",
+      "sha": "eb1c3a8dcf19e16984d635aa052bfd64b6c5522b"
+    },
+    {
+      "file": "sc/building_tower.sc",
+      "sha": "27b15723499737a08fa8de6a0f28bca156f20c86"
+    },
+    {
+      "file": "sc/building_tower_tex.sc",
+      "sha": "ff811847d0333fabac10a9ccf378c08bdddf12a2"
+    },
+    {
+      "file": "sc/building_xbow.sc",
+      "sha": "9dd2a8585e8112a8a328b247c3fc6823da668d11"
+    },
+    {
+      "file": "sc/building_xbow_tex.sc",
+      "sha": "4c269ce224eb969771e8ce5a5fa69c14a675c401"
+    },
+    {
+      "file": "sc/chr_archer.sc",
+      "sha": "b83bd61341b51d148ccb91abc4b119376e7aee0f"
+    },
+    {
+      "file": "sc/chr_archer_tex.sc",
+      "sha": "089cc9d069976c632c7b1cc2bfd147707c091b23"
+    },
+    {
+      "file": "sc/chr_baby_dragon.sc",
+      "sha": "7afd5ac7c6b79ef36c9761c88e3ae8cc86c01874"
+    },
+    {
+      "file": "sc/chr_baby_dragon_tex.sc",
+      "sha": "da627065dccf1923c0827393a0465f449d6ed929"
+    },
+    {
+      "file": "sc/chr_balloon.sc",
+      "sha": "2ba65ef7203e302d4772501d822081353382d2c8"
+    },
+    {
+      "file": "sc/chr_balloon_tex.sc",
+      "sha": "28821f431b4916658363d432ff0750e518923d92"
+    },
+    {
+      "file": "sc/chr_barbarian.sc",
+      "sha": "085314ec0949bdd4a88ae9256a0afc05599cdd67"
+    },
+    {
+      "file": "sc/chr_barbarian_tex.sc",
+      "sha": "9d9c5254a1b17a495728fe278ebe18a31cdcf007"
+    },
+    {
+      "file": "sc/chr_black_knight.sc",
+      "sha": "f853223c7508ec42bff51c293b6f2a21f22860b5"
+    },
+    {
+      "file": "sc/chr_black_knight_tex.sc",
+      "sha": "93d982e7dd1ff5e07fc41e4b6000037c053107d0"
+    },
+    {
+      "file": "sc/chr_bomber.sc",
+      "sha": "f7cea18514d499fbb3a686e352471a6c8aa3ef61"
+    },
+    {
+      "file": "sc/chr_bomber_tex.sc",
+      "sha": "8ab9c48e1c1b0925c0b60ca42783a290dc42b185"
+    },
+    {
+      "file": "sc/chr_giant.sc",
+      "sha": "02663e7a73dfaf0ba2e8cb06d285177c96ee2039"
+    },
+    {
+      "file": "sc/chr_giant_skeleton.sc",
+      "sha": "477a74927535c1917f33ba36f65f948a9344a902"
+    },
+    {
+      "file": "sc/chr_giant_skeleton_tex.sc",
+      "sha": "2a081eedc8ee3a51bd359a6466f8dce45a2fdf2f"
+    },
+    {
+      "file": "sc/chr_giant_tex.sc",
+      "sha": "a7bbc3065d84629e1bda483b2654a20de1c733d6"
+    },
+    {
+      "file": "sc/chr_goblin.sc",
+      "sha": "890cb5ef8eb003c380a59d0c6f782b87bcb473c7"
+    },
+    {
+      "file": "sc/chr_goblin_archer.sc",
+      "sha": "f2ad3829dbdf37403621e4a892c4ecce1ffa54af"
+    },
+    {
+      "file": "sc/chr_goblin_archer_tex.sc",
+      "sha": "0f8cd4a70520567a00b9717c4c9ac8a658dea66d"
+    },
+    {
+      "file": "sc/chr_goblin_tex.sc",
+      "sha": "54f2e40ccbc47b97503c14f10d598bf600f970c9"
+    },
+    {
+      "file": "sc/chr_golem.sc",
+      "sha": "3e892fc7c0e47d27ea11510f48ef3727de641aad"
+    },
+    {
+      "file": "sc/chr_golem_tex.sc",
+      "sha": "94527f78d235cdc2a186e02651a7c2299732827f"
+    },
+    {
+      "file": "sc/chr_hog_rider.sc",
+      "sha": "dc6cab54a05f9a3e27e29c39e795189a861b439a"
+    },
+    {
+      "file": "sc/chr_hog_rider_tex.sc",
+      "sha": "40e9bf0fb64683560a80faed39b5fb4246f8f271"
+    },
+    {
+      "file": "sc/chr_ice_wizard.sc",
+      "sha": "a8160f1ccc8a847471737d157055ba2db29110f2"
+    },
+    {
+      "file": "sc/chr_ice_wizard_tex.sc",
+      "sha": "e253a2ba39eab17814991fd80e6173f74e3597e2"
+    },
+    {
+      "file": "sc/chr_knight.sc",
+      "sha": "e003a5b916e96f9329deb19b5375fb2c55d86854"
+    },
+    {
+      "file": "sc/chr_knight_tex.sc",
+      "sha": "521482e3a7dc84f1c12fdb3c0ab6238674b63dce"
+    },
+    {
+      "file": "sc/chr_mini_pekka.sc",
+      "sha": "f7b6cc7675ad4aa9651f9f8cbe1c67616e78b51e"
+    },
+    {
+      "file": "sc/chr_mini_pekka_tex.sc",
+      "sha": "54adef79eaac2ebd50f1f6c9ac8d3f58eb9f94cd"
+    },
+    {
+      "file": "sc/chr_minion.sc",
+      "sha": "5055fc0762eaef3e58099766083046056281fbda"
+    },
+    {
+      "file": "sc/chr_minion_tex.sc",
+      "sha": "25a583716b711d2d35e4afb6569f47db05a63b94"
+    },
+    {
+      "file": "sc/chr_musketeer.sc",
+      "sha": "0ba12f88786389a00d57e4ea83ad19023ae5336a"
+    },
+    {
+      "file": "sc/chr_musketeer_tex.sc",
+      "sha": "a4218e5a261b202dc8dd347f12d00d30ffbbee19"
+    },
+    {
+      "file": "sc/chr_pekka.sc",
+      "sha": "47c1276a95e87311d8f4bffe7ef8074fd525d1e0"
+    },
+    {
+      "file": "sc/chr_pekka_tex.sc",
+      "sha": "adc7260f3b435915c4ab47983d5d1aad49822c86"
+    },
+    {
+      "file": "sc/chr_prince.sc",
+      "sha": "3ec6e03e477add5af97b23e43b2e501dd974089e"
+    },
+    {
+      "file": "sc/chr_prince_tex.sc",
+      "sha": "45c290f1f1d654b378d656ca308d06c7744099f7"
+    },
+    {
+      "file": "sc/chr_princess.sc",
+      "sha": "f76286a20025589ae2e4560b814644ae44436d7a"
+    },
+    {
+      "file": "sc/chr_princess_tex.sc",
+      "sha": "8b3401779ad5754df5cc64239a783e51e78fb642"
+    },
+    {
+      "file": "sc/chr_royal_giant.sc",
+      "sha": "7514d89b06a8332b59c62ce78141eae634f640a6"
+    },
+    {
+      "file": "sc/chr_royal_giant_tex.sc",
+      "sha": "ae6a167a48a2a23dd246768835e5facc7fa25c61"
+    },
+    {
+      "file": "sc/chr_skeleton.sc",
+      "sha": "fea2b55b1ab4598d8f58c971aac5865849327ea3"
+    },
+    {
+      "file": "sc/chr_skeleton_tex.sc",
+      "sha": "baa276f5bdefad6b6eecf8212f61889562300f80"
+    },
+    {
+      "file": "sc/chr_valkyrie.sc",
+      "sha": "795f7c19e89fc500c076108f5ba2bdbc7c537805"
+    },
+    {
+      "file": "sc/chr_valkyrie_tex.sc",
+      "sha": "e6d8cec4e0b8365316d638cde7e7fd6427a37f6f"
+    },
+    {
+      "file": "sc/chr_witch.sc",
+      "sha": "f240636de0bdef69e0995700bc3e8970a41b9de9"
+    },
+    {
+      "file": "sc/chr_witch_tex.sc",
+      "sha": "6f55b4ed0d81c5deeb6451c0af9f7f5a1d979261"
+    },
+    {
+      "file": "sc/chr_wizard.sc",
+      "sha": "52fbd07bc38679131a04a2d8e7ec40d56c4f0206"
+    },
+    {
+      "file": "sc/chr_wizard_tex.sc",
+      "sha": "f427bba368930afffe376fbf1c23445501abfc55"
+    },
+    {
+      "file": "sc/debug.sc",
+      "sha": "57a3a7e5aad8bc1203d8171eb95b947d17cd878e"
+    },
+    {
+      "file": "sc/debug_tex.sc",
+      "sha": "22d4953af8e90bb530531a666e987b93e18a7bf8"
+    },
+    {
+      "file": "sc/effects.sc",
+      "sha": "c68caa1593879c13802028147d87acb049e9c75e"
+    },
+    {
+      "file": "sc/effects_tex.sc",
+      "sha": "e97ce7f05a42675c8ac3bcf63107b08e366a46bc"
+    },
+    {
+      "file": "sc/level_barbarian_arena.sc",
+      "sha": "1907c5c3330d07f2a2407ec5cc493f12fa4aba72"
+    },
+    {
+      "file": "sc/level_barbarian_arena_tex.sc",
+      "sha": "779bacfff906ed499fb79fd5b8346c0a243129c1"
+    },
+    {
+      "file": "sc/level_bone_arena.sc",
+      "sha": "89bbc0bef5ec9aaeddf0482c446d1511d980a5e5"
+    },
+    {
+      "file": "sc/level_bone_arena_tex.sc",
+      "sha": "e7fe75170e24806701b96fea2f460b347618cc81"
+    },
+    {
+      "file": "sc/level_builder_arena.sc",
+      "sha": "7d1c3df8b7773160ef1a89942aa7e85541529019"
+    },
+    {
+      "file": "sc/level_builder_arena_tex.sc",
+      "sha": "5b7269660ebe07d8b55396c942f240ddb8b1fe32"
+    },
+    {
+      "file": "sc/level_dark_arena.sc",
+      "sha": "41789e54aabe73b1a5ad39a99d1e980f2b2750cc"
+    },
+    {
+      "file": "sc/level_dark_arena_tex.sc",
+      "sha": "cc60fdb7c1d4880c7fc6d9d037144181839b1ef0"
+    },
+    {
+      "file": "sc/level_goblin_arena.sc",
+      "sha": "fc9871010b10b8369441e0b3ec48405fac9888a2"
+    },
+    {
+      "file": "sc/level_goblin_arena_tex.sc",
+      "sha": "fbdf1caedcbd9b1244e066681efbe0fc9181ad80"
+    },
+    {
+      "file": "sc/level_legendary_arena.sc",
+      "sha": "4226c3d7bc1a183f0b40385d0657294a7e1056a3"
+    },
+    {
+      "file": "sc/level_legendary_arena_tex.sc",
+      "sha": "3b6c2c98fa2ba262f8d238d4ef8728656971ebee"
+    },
+    {
+      "file": "sc/level_royal_arena.sc",
+      "sha": "45afb7a08bf8961d77c6cb1ff3b192942ec3e02f"
+    },
+    {
+      "file": "sc/level_royal_arena_tex.sc",
+      "sha": "440694a19a364fc0f3951b556994ebae3af7d4d4"
+    },
+    {
+      "file": "sc/level_spell_arena.sc",
+      "sha": "86e6df779e5b20232e854554d2abcdd32321d1eb"
+    },
+    {
+      "file": "sc/level_spell_arena_tex.sc",
+      "sha": "6b6def851c1d1fab52af52f510540b57550453d8"
+    },
+    {
+      "file": "sc/loading.sc",
+      "sha": "244463f70ccbf38e62514b8f5051fcd7f52d424f"
+    },
+    {
+      "file": "sc/loading_tex.sc",
+      "sha": "218c85dfa6ea55ba4dce3531da8acec69167fbb9"
+    },
+    {
+      "file": "sc/spell_goblin_barrel.sc",
+      "sha": "3826ebbd205f30491c11d96a2c6f623de010fcef"
+    },
+    {
+      "file": "sc/spell_goblin_barrel_tex.sc",
+      "sha": "af796de0ee73be810c89e0f8465ed9defa334032"
+    },
+    {
+      "file": "sc/tutorial.sc",
+      "sha": "c24c73a88d56bce5c689a06da8e0e4edd42c4c15"
+    },
+    {
+      "file": "sc/tutorial_tex.sc",
+      "sha": "1a85538998e4527d0cfa14e0006de4548b8e3fe7"
+    },
+    {
+      "file": "sc/ui.sc",
+      "sha": "d419076a69d34e52ee27867860069ecf9489579b"
+    },
+    {
+      "file": "sc/ui_arena.sc",
+      "sha": "55a47e0e1a898ce63c6f8a2b395dd4952a64c9fc"
+    },
+    {
+      "file": "sc/ui_arena_tex.sc",
+      "sha": "1f5902ea03e0ed1218270cf54d975ec8e6bc7224"
+    },
+    {
+      "file": "sc/ui_chest.sc",
+      "sha": "e1c6634489bed2fdccd51b6141ec8638a31574b6"
+    },
+    {
+      "file": "sc/ui_chest_tex.sc",
+      "sha": "c06ce9ded0a6278e8c1c68a09c788383a5ac535d"
+    },
+    {
+      "file": "sc/ui_spells.sc",
+      "sha": "4e9c6d47fa24ccc9de4fe63c4eb5d5b40c40128b"
+    },
+    {
+      "file": "sc/ui_spells_tex.sc",
+      "sha": "58ecc1ded6e464918db63d64c5d156edc02fb2d2"
+    },
+    {
+      "file": "sc/ui_tex.sc",
+      "sha": "99e06ebbad0cff067ed5f1744a46da635de82ba2"
+    },
+    {
+      "file": "sfx/10_cd_02.wav",
+      "sha": "d93fee47e49b768bcac7ea4061af7398281e332e"
+    },
+    {
+      "file": "sfx/1_cd_02.wav",
+      "sha": "03c454768bf73102ba9ca0b73e4b0d65e0c2eaf6"
+    },
+    {
+      "file": "sfx/1st_crown_01.wav",
+      "sha": "c66573d6b1b2d9fedb227fe0fdd05d4e62c33432"
+    },
+    {
+      "file": "sfx/2_cd_02.wav",
+      "sha": "567e36e3223713c439a93c25d13c3b1f4ca9e4d8"
+    },
+    {
+      "file": "sfx/2nd_crown_01.wav",
+      "sha": "15d29c23f266a6ce5323230e491543f702304054"
+    },
+    {
+      "file": "sfx/3_cd_02.wav",
+      "sha": "5fcf2091005e75f950679fec6120efa5389ef063"
+    },
+    {
+      "file": "sfx/3rd_crown_01.wav",
+      "sha": "bcca184ad8bf8600467b927056fa65ffd0f13e8a"
+    },
+    {
+      "file": "sfx/4_cd_02.wav",
+      "sha": "b1b161054100e777df0b6e048c0e873d4401c592"
+    },
+    {
+      "file": "sfx/5_cd_02.wav",
+      "sha": "40958a021fcc179fe6639ed60aee26d8066b2588"
+    },
+    {
+      "file": "sfx/60_sec_warn_02_v2.wav",
+      "sha": "6dd25e57983f170332aeb45bb5adbcef3e647949"
+    },
+    {
+      "file": "sfx/6_cd_02.wav",
+      "sha": "19a61f9493c22a0cb7aa5186bcd64b8d7f800fa7"
+    },
+    {
+      "file": "sfx/7_cd_02.wav",
+      "sha": "9bda7b43ae104716bde66a896429578035b3ddca"
+    },
+    {
+      "file": "sfx/8_cd_02.wav",
+      "sha": "7dd65f52eb053f2670900ea3add8c9ea1878e2ac"
+    },
+    {
+      "file": "sfx/9_cd_02.wav",
+      "sha": "9c095ce9ce5ba0f36fc8b82dc6bfadc85eb646a4"
+    },
+    {
+      "file": "sfx/achievement_unlock_01.wav",
+      "sha": "e07d08473ae96325ec70b9a94f9d5da9d7d8ab78"
+    },
+    {
+      "file": "sfx/archer_attack_07.wav",
+      "sha": "f82ee941cd38d67e3af125cc25d6c93096d8996b"
+    },
+    {
+      "file": "sfx/archer_queen_attack_02.wav",
+      "sha": "fab81158fe1fc053fc2bd89e1944aac821df56fb"
+    },
+    {
+      "file": "sfx/archer_tower_fire_05.wav",
+      "sha": "92f205e0f90bacc53bb13e13ee524386fefedf17"
+    },
+    {
+      "file": "sfx/arrow_hit_13.wav",
+      "sha": "8ec64532a150d376ce6113fba3411a9d18e41e16"
+    },
+    {
+      "file": "sfx/arrow_norm_impact_06.wav",
+      "sha": "08257a24d7e931d9accd44a8c3b3397bf7db3941"
+    },
+    {
+      "file": "sfx/attack_button_01.wav",
+      "sha": "f03bd3b1995c830012ea1b8a598c6225f1e6d74d"
+    },
+    {
+      "file": "sfx/b_knight_atk_01.wav",
+      "sha": "53559a5b7db225e50021480d07badb5b979cd716"
+    },
+    {
+      "file": "sfx/b_knight_atk_02.wav",
+      "sha": "55a30ea7f9bb32bce8376f00f510aaae0d5fe2a9"
+    },
+    {
+      "file": "sfx/b_knight_atk_03.wav",
+      "sha": "c0ed9b39b7ad44ffad135a84eaa40c0883fc3baf"
+    },
+    {
+      "file": "sfx/b_knight_atk_04.wav",
+      "sha": "d488c814a37ca56a28ed4ac314dca7b0442d87da"
+    },
+    {
+      "file": "sfx/b_knight_atk_charge_01.wav",
+      "sha": "1ac278b8172942b662efe424a7bcdd2fab07f1ec"
+    },
+    {
+      "file": "sfx/b_knight_atk_charge_02.wav",
+      "sha": "26ad112a13f706618907d282cee1d30ccfec559e"
+    },
+    {
+      "file": "sfx/b_knight_deploy_01.wav",
+      "sha": "43c7d1b1bc294041cefe0b3cd90981079892f08a"
+    },
+    {
+      "file": "sfx/b_knight_deploy_02.wav",
+      "sha": "a3827395f162ad492796825ef5fa737d179aa5e7"
+    },
+    {
+      "file": "sfx/b_knight_deploy_03.wav",
+      "sha": "34838d1886d8c5610fcfef1f157e283e030671de"
+    },
+    {
+      "file": "sfx/baby_dragon_deploy_end_11.wav",
+      "sha": "b61c7d642e900514fa9a4ec061efebcfcffbdff0"
+    },
+    {
+      "file": "sfx/baby_dragon_fireball_08.wav",
+      "sha": "a4e6e712850a5e9aade0d66b373b31d663215721"
+    },
+    {
+      "file": "sfx/babydragon_deploy_01.wav",
+      "sha": "7b7c05a309e8de7ed9ebcbf9001e6300ecdbe615"
+    },
+    {
+      "file": "sfx/babydragon_wing_01.wav",
+      "sha": "40e9be3e30a569f124ca018536d8484706ed06e8"
+    },
+    {
+      "file": "sfx/bad_drop_03.wav",
+      "sha": "b6bd4f0ec1fbff5fcdd130f3d51bf4aa77ba7401"
+    },
+    {
+      "file": "sfx/balloon_fly_loop_01.wav",
+      "sha": "7d144b8830314e437c1fed5406c728bfbf4f777a"
+    },
+    {
+      "file": "sfx/barbarian_attack_02.wav",
+      "sha": "473f9693bf134ff2d48175ec846fe037dc5cef1e"
+    },
+    {
+      "file": "sfx/barbarian_attack_03.wav",
+      "sha": "fe990eceea8343194aadf101ae317d8e5e233ff9"
+    },
+    {
+      "file": "sfx/barbarian_attack_04.wav",
+      "sha": "dd2f70472d0884aaa7699be7a99be9e29ce7ed38"
+    },
+    {
+      "file": "sfx/barbarian_attack_05.wav",
+      "sha": "5422951586af427b60fba4154589d51251ef58d7"
+    },
+    {
+      "file": "sfx/barbarian_attack_06.wav",
+      "sha": "584a17c5d9e2c6955a278b98927ae662e53e28cd"
+    },
+    {
+      "file": "sfx/barbarian_attack_07.wav",
+      "sha": "d4166c1cd19b3a65266eff05d197a9fefec9621f"
+    },
+    {
+      "file": "sfx/barbarian_attack_08.wav",
+      "sha": "7c97e3da9dd1190a2c748ebd790de83b3e6bd352"
+    },
+    {
+      "file": "sfx/barbarian_jingle_01.wav",
+      "sha": "e8749053683296c8872d5671f672826b8656295d"
+    },
+    {
+      "file": "sfx/barrel_drawback_14.wav",
+      "sha": "dc6f44bded45b001396f51f6ce47bbf60f43277d"
+    },
+    {
+      "file": "sfx/barrel_explosion_02.wav",
+      "sha": "809461782f8e5f751418e202d58f4c510bc62d3f"
+    },
+    {
+      "file": "sfx/big_horn_end_02_v2.wav",
+      "sha": "62b032a7e3f09fde23eb8b7f508c1d6aba4345a3"
+    },
+    {
+      "file": "sfx/big_horn_start_02_v2.wav",
+      "sha": "b9f81ef3b046126992b129985c70007f704a22d9"
+    },
+    {
+      "file": "sfx/big_skeleton_hit_01.wav",
+      "sha": "e5e67feacd4670bc960f105dcf8847a62d953540"
+    },
+    {
+      "file": "sfx/big_skeleton_summon_01.wav",
+      "sha": "fb5de5716eeb453053dc17ef7469d11843a782a2"
+    },
+    {
+      "file": "sfx/big_skeleton_walk_05.wav",
+      "sha": "4df7e1f7808dc37c1e2d30f7d7d1edb4c2ced941"
+    },
+    {
+      "file": "sfx/board_slide_in_01.wav",
+      "sha": "5a243f7fb70a8e2a5e87f0ed7c327789d6f658a3"
+    },
+    {
+      "file": "sfx/bomb_drop_01.wav",
+      "sha": "5c30b65fb5edaa7e8d5551ffcc81ce955e10c84e"
+    },
+    {
+      "file": "sfx/bomb_skeleton_01v3.wav",
+      "sha": "c738213640e128974d9479e8a29e73ea19bdd2c0"
+    },
+    {
+      "file": "sfx/bomb_skeleton_atk_04.wav",
+      "sha": "55a205a08c7bd501eb40fd6494fd1564503c77cf"
+    },
+    {
+      "file": "sfx/bone_pit_arena_jingle_01.wav",
+      "sha": "e7c1863e68c0e01cc8f04a02e7d393e799e713fe"
+    },
+    {
+      "file": "sfx/boulder_impact_01.wav",
+      "sha": "63ed6a3a421b525be0e66ac1a577cd347e6916bd"
+    },
+    {
+      "file": "sfx/builder_arena_jingle_01.wav",
+      "sha": "b4f5b19045781c5091ff8e2d48e58519b3688886"
+    },
+    {
+      "file": "sfx/building_destroyed_05.wav",
+      "sha": "973f425143b3c34fb68649c064e51edddee635e8"
+    },
+    {
+      "file": "sfx/building_explode_01.wav",
+      "sha": "42e7b7af3e64aa4f8c766529d9ebc67bb10d3041"
+    },
+    {
+      "file": "sfx/building_place_01.wav",
+      "sha": "e23c633a5821198e1ca78fb1f82286a3577b2733"
+    },
+    {
+      "file": "sfx/button_click_02.wav",
+      "sha": "3acd71b8f54731edfe97df91210b585769089c07"
+    },
+    {
+      "file": "sfx/buy_common_card_01.wav",
+      "sha": "ad065328cf87e8ce170b890ad507e87f9cb67af5"
+    },
+    {
+      "file": "sfx/buy_epic_card_02.wav",
+      "sha": "c31a27f6a6965b5f32e8c6f9e7356b9c6eb592e1"
+    },
+    {
+      "file": "sfx/buy_gems_02.wav",
+      "sha": "5b62832b28c391408049f959e527638d48ef2cb7"
+    },
+    {
+      "file": "sfx/buy_rare_card_01.wav",
+      "sha": "532646e360f87addef933afe4464fbea028a3fdc"
+    },
+    {
+      "file": "sfx/cannon_deploy_01.wav",
+      "sha": "76694807c0b63dc22a3fecb4ce3053636be96744"
+    },
+    {
+      "file": "sfx/cannon_fire_03.wav",
+      "sha": "1222335e00155c70128959fca1a317213b593201"
+    },
+    {
+      "file": "sfx/card_fly_in_06.wav",
+      "sha": "6fbcd41650dd472edb0e8514130082c61d834086"
+    },
+    {
+      "file": "sfx/card_ready_02.wav",
+      "sha": "790524744934d304e6058ccb40579caa70cb91fc"
+    },
+    {
+      "file": "sfx/card_upgrade_counter_01.wav",
+      "sha": "a2931a2288ed0ba7bd2d7580af38419f7c1a7e20"
+    },
+    {
+      "file": "sfx/card_upgrade_hit_01.wav",
+      "sha": "be49148979e12d50b8eaf73249a34edb9344b505"
+    },
+    {
+      "file": "sfx/card_upgrade_stat_05.wav",
+      "sha": "2c560442c8bec88ca2b522bae17285b6afad1099"
+    },
+    {
+      "file": "sfx/chest_fly_01.wav",
+      "sha": "57b1cdba923a1f137d37423f09a5a3a72d2fb656"
+    },
+    {
+      "file": "sfx/chest_land_02.wav",
+      "sha": "13434a3eade88ec586575a5f3d5254f50b8c0720"
+    },
+    {
+      "file": "sfx/chest_loop_02.wav",
+      "sha": "27faa984dc9a5281ccefe190fb0596a21f0b73af"
+    },
+    {
+      "file": "sfx/claim_achievement_01.wav",
+      "sha": "f348c7b57d32e3cf7e6838cd2a6824cb6db68f63"
+    },
+    {
+      "file": "sfx/clash_archer_deploy_01.wav",
+      "sha": "8213fd1627eb82c14ee89557cd1e26a5caef2b06"
+    },
+    {
+      "file": "sfx/crown_appear_03.wav",
+      "sha": "120868a55a7bddef60436cbadcdd192cb28ae28e"
+    },
+    {
+      "file": "sfx/dark_arena_jingle_02.wav",
+      "sha": "1a63c0daa62d047a37102ea1c716afe4fa049b82"
+    },
+    {
+      "file": "sfx/dark_prince_atk_01.wav",
+      "sha": "123d8de3ab3e6b28cfb7d94e7d09d45dd368e03e"
+    },
+    {
+      "file": "sfx/dark_prince_atk_hit_01.wav",
+      "sha": "68087e6031af4687d2596da7ab00e43b4b428686"
+    },
+    {
+      "file": "sfx/dark_prince_charge_jing_02.wav",
+      "sha": "94956694f3347a8e9812e4d940753fad25f7c47a"
+    },
+    {
+      "file": "sfx/dark_prince_death_01.wav",
+      "sha": "dee494f3ca7ffbfd02442391bbba50e77713eb06"
+    },
+    {
+      "file": "sfx/dark_prince_deploy_01.wav",
+      "sha": "52cd75f34ab2aece9fb49dcb26f87379e465d5e2"
+    },
+    {
+      "file": "sfx/dark_prince_shield_01.wav",
+      "sha": "83a79554e46c3a4cb21f45b8737145cb1c5bf14b"
+    },
+    {
+      "file": "sfx/dark_prince_shield_lost_01.wav",
+      "sha": "976b8b95c7e3a0494e54e854133d4c25b4508ea8"
+    },
+    {
+      "file": "sfx/dark_prince_step_01.wav",
+      "sha": "b86c7ae129d86d0701232b8b64d6676b9203052d"
+    },
+    {
+      "file": "sfx/demon_step_01.wav",
+      "sha": "44b0c9cf99c86ec7523ed4e29d561d9c6df18f23"
+    },
+    {
+      "file": "sfx/deploy_balloon_06.wav",
+      "sha": "b7b80400f3b5ef4393fc6546b0f5b2c9bc919065"
+    },
+    {
+      "file": "sfx/deploy_barbarians_01.wav",
+      "sha": "544be77b4e1fcc1425a952fda5fbbfc034d79850"
+    },
+    {
+      "file": "sfx/deploy_skeleton_01.wav",
+      "sha": "74d599756f3a4e1b7fb3b04e144e75d7dd1a918b"
+    },
+    {
+      "file": "sfx/deploy_timer_ding_03.wav",
+      "sha": "412d5b1610cfc00b68333cca0f0a2974895322ee"
+    },
+    {
+      "file": "sfx/deploy_timer_tick_01v4.wav",
+      "sha": "6180d335f897ab888aa52a117978c863f315b7ad"
+    },
+    {
+      "file": "sfx/deploy_wizard_01.wav",
+      "sha": "f1e524cd706cbe4bf2d71eaf8aff35d31f087d25"
+    },
+    {
+      "file": "sfx/donate_01.wav",
+      "sha": "2be63bb94c10619c5c6d8d50232f1e9d1f11b966"
+    },
+    {
+      "file": "sfx/drop_bomb_03.wav",
+      "sha": "6eaca6cb63dbef7990039caa59aebc1f908cb625"
+    },
+    {
+      "file": "sfx/dummy_01.wav",
+      "sha": "fbd9a863c4de19261c58d3fd5f2274d2e5bc4a26"
+    },
+    {
+      "file": "sfx/elixir_collector_place_02.wav",
+      "sha": "972a5091dac07668844e4a8ad055eb73e1d641b1"
+    },
+    {
+      "file": "sfx/enemy_deploy_timer_ding_04.wav",
+      "sha": "935dd90ac9ee0e3475b9c22f89157b882679c648"
+    },
+    {
+      "file": "sfx/enemy_deploy_timer_tick_01.wav",
+      "sha": "5ff99b629951b04f72875561872f31876615f9ae"
+    },
+    {
+      "file": "sfx/enemy_summon_01.wav",
+      "sha": "4a07a73ac901639cae47eb18d4fbf47994d7da3e"
+    },
+    {
+      "file": "sfx/enemy_tower_attacked_03.wav",
+      "sha": "9d1e33b0423de3871dcb685d322ef05b6ecf2812"
+    },
+    {
+      "file": "sfx/explosion_01.wav",
+      "sha": "3ea0f1d99f91ab3387ec582351415371ec7ed5f5"
+    },
+    {
+      "file": "sfx/extratime_jingle_02.wav",
+      "sha": "273a062294d53691b9e33a74cfbc4fcc22e7061d"
+    },
+    {
+      "file": "sfx/fire_ball_02.wav",
+      "sha": "d2ea50831474565c6b2f7976877b5bbca67e6d0b"
+    },
+    {
+      "file": "sfx/fire_ball_explo_02.wav",
+      "sha": "92b9739699012381d6a04fccb9e0ac385f4a0271"
+    },
+    {
+      "file": "sfx/fireball_hit_01.wav",
+      "sha": "d3b5ba1794bf1eb06b09d16df8f3ec08e7355544"
+    },
+    {
+      "file": "sfx/footman_attack_hit_01.wav",
+      "sha": "324e9f1ac7008e4f28884e1c3b204d18c5c20400"
+    },
+    {
+      "file": "sfx/footman_attack_hit_02.wav",
+      "sha": "8077350c3557ada136fb562fd6592eb36b83edff"
+    },
+    {
+      "file": "sfx/footman_attack_hit_03.wav",
+      "sha": "a3af10326ddd01fc5e66ae1b737a4635f55a2d14"
+    },
+    {
+      "file": "sfx/footman_attack_hit_04.wav",
+      "sha": "6ddb01f67f6ba182f23897584960d228c624927b"
+    },
+    {
+      "file": "sfx/freeze_04.wav",
+      "sha": "45141a6667dce2476f0af0dfc3c006a34570fa0c"
+    },
+    {
+      "file": "sfx/gen_troop_step_01.wav",
+      "sha": "652d27865140c889ca83a55c09ca58419b7a0538"
+    },
+    {
+      "file": "sfx/gen_troop_step_02.wav",
+      "sha": "c76ef3e9665a6a863d2f49d1a344b058ac48bb25"
+    },
+    {
+      "file": "sfx/gen_troop_step_03.wav",
+      "sha": "12dfc213ba9238887293b74064fd4d8aa5434cec"
+    },
+    {
+      "file": "sfx/gen_troop_step_04.wav",
+      "sha": "ccb725167362f1f4e3e6690993d217043fa0efbd"
+    },
+    {
+      "file": "sfx/get_card_comon_01.wav",
+      "sha": "2322fd30059a8a0dede2601dbca414084e5204c3"
+    },
+    {
+      "file": "sfx/get_card_gems_01.wav",
+      "sha": "badfddb39c537823bd609fcd8404e467e072c6d9"
+    },
+    {
+      "file": "sfx/get_card_gold_01.wav",
+      "sha": "5a085cbbd4905340c31210ec4df18a2917cd311b"
+    },
+    {
+      "file": "sfx/get_card_rare_01.wav",
+      "sha": "6ca77ec31458bab1e37550ee330563c265bc5fb7"
+    },
+    {
+      "file": "sfx/get_crown_03.wav",
+      "sha": "13b162b6865cb66501ca72859940e33fc0f49c7f"
+    },
+    {
+      "file": "sfx/get_diamonds_01.wav",
+      "sha": "4cf3621d5f05e6633282dbcdd0ad19b5d521ef08"
+    },
+    {
+      "file": "sfx/get_elixir_02.wav",
+      "sha": "65d916d3b978e14f9f63ba1e72b9c212d00abd6a"
+    },
+    {
+      "file": "sfx/get_epic_rare_01.wav",
+      "sha": "0e788a91dd72fdb5238ea885a849920745c70a9f"
+    },
+    {
+      "file": "sfx/get_gold_04.wav",
+      "sha": "125fade175d45cca3c8b8fd9891e7be1e1ee6cd5"
+    },
+    {
+      "file": "sfx/get_legendary_card_01.wav",
+      "sha": "91d2d4d9ba3c9d29da1670a542b4a42b680d0287"
+    },
+    {
+      "file": "sfx/get_mana_01.wav",
+      "sha": "d415e8b035f83d9e12dce1a545a6917c0fabf8e1"
+    },
+    {
+      "file": "sfx/get_star_equence_01_v2.wav",
+      "sha": "696e50fb1d7ec45cc167bd6c69c0654b3c8689ca"
+    },
+    {
+      "file": "sfx/get_star_equence_01boo.wav",
+      "sha": "6e386f9cf431ac3d6f8c30ec13d976d83833a7c1"
+    },
+    {
+      "file": "sfx/get_xp_01.wav",
+      "sha": "405d287f995aa835dafd72539ab225d9acece3fd"
+    },
+    {
+      "file": "sfx/giant_attack_swing_01.wav",
+      "sha": "19c9398c9f2d07e56a7420487442d70380465fac"
+    },
+    {
+      "file": "sfx/giant_attack_swing_02.wav",
+      "sha": "482bc0c36f55daa6df6a8f80188a7ee1bc1f7ec2"
+    },
+    {
+      "file": "sfx/giant_attack_swing_03.wav",
+      "sha": "32713f077438da1ab968d3ecfb22739fe3a86dbc"
+    },
+    {
+      "file": "sfx/giant_deploy_01.wav",
+      "sha": "e763edea3f901718bb03716f0f4af3caeb758044"
+    },
+    {
+      "file": "sfx/giant_hit_01.wav",
+      "sha": "215bfaf2200a10aa4103ee32e9788f6a9add597e"
+    },
+    {
+      "file": "sfx/gob_attack_01v2.wav",
+      "sha": "814033ded74149604fdaf1283925fc4a732746e7"
+    },
+    {
+      "file": "sfx/gob_attack_02v2.wav",
+      "sha": "72c22be2011530c45244c93794f8d38280c3103e"
+    },
+    {
+      "file": "sfx/gob_attack_03v2.wav",
+      "sha": "713e564ed045203136a97668c92a7a88f1fed0e8"
+    },
+    {
+      "file": "sfx/goblin_arena_jingle_01.wav",
+      "sha": "42f38dfccdaf21333a796fb3c025d24ea9d7195f"
+    },
+    {
+      "file": "sfx/goblin_deploy_14.wav",
+      "sha": "f48a97add0e38123ee3cd63cf8c1e6a213671ab1"
+    },
+    {
+      "file": "sfx/gold_chest_open_01.wav",
+      "sha": "c0de392417ed239af4a309472b54a912cc868909"
+    },
+    {
+      "file": "sfx/golden_chest_land_01.wav",
+      "sha": "dfa648bb9d3d83a073390ba882a8b9acb64fa449"
+    },
+    {
+      "file": "sfx/golem_atk_01.wav",
+      "sha": "2dc059bf6cf970163bd24cf4bb0b4f86f2295fec"
+    },
+    {
+      "file": "sfx/golem_atk_hit_01.wav",
+      "sha": "b072e16185e82071cd335a415b780d552d75cff0"
+    },
+    {
+      "file": "sfx/golem_deploy_01.wav",
+      "sha": "ae833b3b01c156c7fbf23456d10b907501c92de2"
+    },
+    {
+      "file": "sfx/golem_die_01.wav",
+      "sha": "0a649b0205f318b8e274049f6d907ea8c3693207"
+    },
+    {
+      "file": "sfx/grabcard_01.wav",
+      "sha": "edd57f3306e9c7742a53cbba395f6691ba783c73"
+    },
+    {
+      "file": "sfx/hogrider_atk_01.wav",
+      "sha": "5d7b482f1b315b800a01d5de9d3f479bcfc568df"
+    },
+    {
+      "file": "sfx/hogrider_atk_03.wav",
+      "sha": "dc577a1f52a00e3e05a4a682713e186d5c502c26"
+    },
+    {
+      "file": "sfx/hogrider_deploy_01.wav",
+      "sha": "6353791bfbe6c552278146433491292155f9c32e"
+    },
+    {
+      "file": "sfx/hogrider_deploy_end_01.wav",
+      "sha": "0521fe477fc30bcb88f19c3bbe1c579c2940f54c"
+    },
+    {
+      "file": "sfx/hogrider_step_01.wav",
+      "sha": "49bef7f416a8b3d7925a8219e179786dd957be87"
+    },
+    {
+      "file": "sfx/horse_blow_01.wav",
+      "sha": "0a9310ef7c93c3ddbdcbd5977b9ab92220712d91"
+    },
+    {
+      "file": "sfx/horse_gallop_01.wav",
+      "sha": "1efb199edad2e78f0d49cb7b7c090ed0ac45204f"
+    },
+    {
+      "file": "sfx/horse_gallop_02.wav",
+      "sha": "1c29c51932f7d4230cf34a26fc3b3c0621a148a0"
+    },
+    {
+      "file": "sfx/huge_magical_chest_tap_01.wav",
+      "sha": "6448e2b94fd6605e085dbedd5fc09591e7ce86d7"
+    },
+    {
+      "file": "sfx/huge_magical_land_01.wav",
+      "sha": "8c1c84620600c4c5a38199cd507a59a36d8ac679"
+    },
+    {
+      "file": "sfx/hugewooden_land_01.wav",
+      "sha": "f56e33684f73760384602252f518df5432ae96f7"
+    },
+    {
+      "file": "sfx/hugewooden_land_open_01.wav",
+      "sha": "7bd3d4c4dab9ae62acf0af0a4d1e0b5788a4fef5"
+    },
+    {
+      "file": "sfx/ice_mage_impact_02.wav",
+      "sha": "98b49f4980fa8d48e7ee360fd9df8e431755ddfa"
+    },
+    {
+      "file": "sfx/ice_wiz_deploy_01.wav",
+      "sha": "b7d456a2c4a0115702aa6b89b195e05d25e9816a"
+    },
+    {
+      "file": "sfx/ice_wiz_footstep_01.wav",
+      "sha": "15245edc11414578bac0aa5190665b51e4352ca6"
+    },
+    {
+      "file": "sfx/icemage_attack_03.wav",
+      "sha": "0f718b85271f2087c5a2fa764d7e07bdcec55602"
+    },
+    {
+      "file": "sfx/iron_chest_land_01.wav",
+      "sha": "c98967d0f72a660919f4d7e632dfd6b072ad66e0"
+    },
+    {
+      "file": "sfx/iron_chest_open_01.wav",
+      "sha": "9acb72e340e148f0f1460d086c7dfaf8c1ab14cc"
+    },
+    {
+      "file": "sfx/kill_enemy_big_summon_02.wav",
+      "sha": "e82d87d287af3d48cb95ee7e34b9d09a6f6a6dbd"
+    },
+    {
+      "file": "sfx/king_activate_01.wav",
+      "sha": "e2001b5818379fadf36df555005530e0235260bd"
+    },
+    {
+      "file": "sfx/king_congrats_01.wav",
+      "sha": "546d8e3ab45c71b17dc0ecbe8f37a7ec0d068e5b"
+    },
+    {
+      "file": "sfx/king_congrats_02.wav",
+      "sha": "1354217d7543b1439f389f86afc1bf737732d496"
+    },
+    {
+      "file": "sfx/king_congrats_03.wav",
+      "sha": "e5c1e2ae622269634f234b36bc78d3e3e02929b5"
+    },
+    {
+      "file": "sfx/king_congrats_04.wav",
+      "sha": "03accfea840cd08f5ff3fd6b74f9a799cca956d8"
+    },
+    {
+      "file": "sfx/king_crying_01.wav",
+      "sha": "5ddc00deb25b96c31867b69bdccfac0a07aa3465"
+    },
+    {
+      "file": "sfx/king_crying_02.wav",
+      "sha": "e07f546308f03a3960dcfba4044715be1673c012"
+    },
+    {
+      "file": "sfx/king_crying_03.wav",
+      "sha": "4ac1d7a7feaf42037b8c66080cc76a114aacfffd"
+    },
+    {
+      "file": "sfx/king_crying_04.wav",
+      "sha": "4ed4fd5ccc790b818cc08b3fc224e70a02794b03"
+    },
+    {
+      "file": "sfx/king_fire_06.wav",
+      "sha": "8b5823ec16f259670e1e8062e64316b77c897e72"
+    },
+    {
+      "file": "sfx/king_happy_01.wav",
+      "sha": "669170d640efcd8081ec6dee931c9dd73cb6d38e"
+    },
+    {
+      "file": "sfx/king_happy_02.wav",
+      "sha": "ec0dd7c2939d3395b009e0558c68d78f407d0079"
+    },
+    {
+      "file": "sfx/king_happy_03.wav",
+      "sha": "b03353c1402afe76a651ee32daebeb2c4899904b"
+    },
+    {
+      "file": "sfx/king_happy_04.wav",
+      "sha": "19012958b84bf5da990ab5d7469874bbb8573a20"
+    },
+    {
+      "file": "sfx/king_laughter_01.wav",
+      "sha": "b85ff82a7509b93b9f98251b41d313c15327b8ee"
+    },
+    {
+      "file": "sfx/king_laughter_02.wav",
+      "sha": "ffc5b8cb00c08971b8e80bd81543744624b85e80"
+    },
+    {
+      "file": "sfx/king_laughter_03.wav",
+      "sha": "4a215a3a0b99ed24160de03d7d4eaa21bf35f7a1"
+    },
+    {
+      "file": "sfx/king_laughter_04.wav",
+      "sha": "ebf6cc9d4503d21304cfeb2f0a3c26c06220241f"
+    },
+    {
+      "file": "sfx/king_level_up_01.wav",
+      "sha": "c0cfa3f1cc0bfd8f012a8c962e7e466ea6ef92e1"
+    },
+    {
+      "file": "sfx/king_mad_01.wav",
+      "sha": "20d27eadef3ebc8e446799418de0a82b8464605e"
+    },
+    {
+      "file": "sfx/king_mad_02.wav",
+      "sha": "896a529636ec5490322de857f215d2b5bb79c7b5"
+    },
+    {
+      "file": "sfx/king_mad_03.wav",
+      "sha": "df8cf90b4be866f2b0418762ab521bc0a55fd7ba"
+    },
+    {
+      "file": "sfx/king_mad_04.wav",
+      "sha": "2c4ec244d72604539ef503458e61d4a2ee1c1200"
+    },
+    {
+      "file": "sfx/king_tower_gone_01.wav",
+      "sha": "fae0b91228143e1b55c8ad99144af18f564ed402"
+    },
+    {
+      "file": "sfx/king_tower_gone_02.wav",
+      "sha": "34217d4a93e82a074b5623867abccfb879aec8c5"
+    },
+    {
+      "file": "sfx/king_tower_gone_03.wav",
+      "sha": "0b3595f3f1730cd55a76d0674cb0911ad9e0fd23"
+    },
+    {
+      "file": "sfx/king_tower_gone_04.wav",
+      "sha": "b446b9ca7fb7f22989968d8dc3a64f485439fc46"
+    },
+    {
+      "file": "sfx/king_tower_gone_05.wav",
+      "sha": "034aaa63365854dc89fd1d7711761632fcc8e830"
+    },
+    {
+      "file": "sfx/king_tower_gone_06.wav",
+      "sha": "383c1c5fdb803dfb7fc3f56bc4d239132c67b083"
+    },
+    {
+      "file": "sfx/king_tower_gone_07.wav",
+      "sha": "b275572716fbc34719d82a5f829ea05950299cb9"
+    },
+    {
+      "file": "sfx/king_tut_first_vo_01.wav",
+      "sha": "bd349e29b35929749bbfcc4280f80ceff17452e9"
+    },
+    {
+      "file": "sfx/king_tut_second_vo_01.wav",
+      "sha": "8b7f5afe3b1d4aa519e4b3f5aebaf5923274ddb5"
+    },
+    {
+      "file": "sfx/knighchargehit01.wav",
+      "sha": "d0c4275512b55199eb76f59752be91bcac28be65"
+    },
+    {
+      "file": "sfx/knight_attack_hack_01.wav",
+      "sha": "a39271d2f4b4b66c6fad3cd4275b4c9b85b0d5d5"
+    },
+    {
+      "file": "sfx/knight_attack_start_01.wav",
+      "sha": "533430aed5a63d2665d000a47c61144366ce3c99"
+    },
+    {
+      "file": "sfx/knight_attack_start_02.wav",
+      "sha": "b79c0fdedecec82d8df35bcc0124f6ecf37b2063"
+    },
+    {
+      "file": "sfx/knight_attack_start_03.wav",
+      "sha": "348f58ba2f9bc6e6c09c0b4f879696b1aa6db742"
+    },
+    {
+      "file": "sfx/knight_attack_start_04.wav",
+      "sha": "50aac6f1aaa8c8b127efcec74117fb81af1e9253"
+    },
+    {
+      "file": "sfx/knight_attack_start_05.wav",
+      "sha": "ef1cf40aa1ff8ec7495ab01dbfe5a23da7fabf36"
+    },
+    {
+      "file": "sfx/knight_death_01.wav",
+      "sha": "3b38e222f0a3740898da5de779057f4fd378f743"
+    },
+    {
+      "file": "sfx/knight_deploy_31111.wav",
+      "sha": "47eaa3166781f0b6651c2086caf143d51f2f1b78"
+    },
+    {
+      "file": "sfx/knight_deploy_end_01.wav",
+      "sha": "c028054cf460a138a14111cc36d4e066aa0cf945"
+    },
+    {
+      "file": "sfx/knight_footstep_01.wav",
+      "sha": "76ea312730efea78394fcdf01b92cb8a3ae128fe"
+    },
+    {
+      "file": "sfx/knight_footstep_02.wav",
+      "sha": "83b1ad0029c9feb48323701125bb76bf3741b97e"
+    },
+    {
+      "file": "sfx/knight_footstep_03.wav",
+      "sha": "65e6bed374c3dc0c04ae23742ffd96a294ce38fd"
+    },
+    {
+      "file": "sfx/knight_footstep_04.wav",
+      "sha": "2483448d60f09bc674d6ae5439e87d10bee747f7"
+    },
+    {
+      "file": "sfx/knight_hit_01.wav",
+      "sha": "960495617ab4ed1fd653b8fc267a610fc300c13d"
+    },
+    {
+      "file": "sfx/laser_loop_02.wav",
+      "sha": "b207571309d9062ff8400aa452322639188819cc"
+    },
+    {
+      "file": "sfx/legendary_arena_jingle_01.wav",
+      "sha": "7a045e5ada4bf258a7328de9362c60d3fa7014d2"
+    },
+    {
+      "file": "sfx/legendary_available_01.wav",
+      "sha": "95802e905cabec3fe5f55edc9eea689e53082f24"
+    },
+    {
+      "file": "sfx/legendary_available_02.wav",
+      "sha": "bf1b335c6d1cf8cdbba89d56ad3933fa0f9c554d"
+    },
+    {
+      "file": "sfx/lightning_02.wav",
+      "sha": "e0ac65b4d61eada3316153bed932b6f55095f9a2"
+    },
+    {
+      "file": "sfx/magic_chest_land_01.wav",
+      "sha": "1ace56394044a1528427e93e97378ad4692f5f7c"
+    },
+    {
+      "file": "sfx/magic_chest_open_01.wav",
+      "sha": "dc4f138fdb260aff7b72561899950787c47f58dc"
+    },
+    {
+      "file": "sfx/menu_click_06.wav",
+      "sha": "c60c3210443dd9a73480746b823752f20a79f8e2"
+    },
+    {
+      "file": "sfx/menu_swipe_09.wav",
+      "sha": "290ac11e4f176b47460e348053c96519e5d18d31"
+    },
+    {
+      "file": "sfx/mini_pekka_atk_12.wav",
+      "sha": "52d660d0d7f5a7f4691ee177a77e9a07784fc61b"
+    },
+    {
+      "file": "sfx/mini_pekka_deploy_end_05.wav",
+      "sha": "8298503b7a6403439401e30ee2f11be5f146a9ba"
+    },
+    {
+      "file": "sfx/mini_pekka_hit_03.wav",
+      "sha": "5c8a388fb20cfb420452115960abe893a37b8f90"
+    },
+    {
+      "file": "sfx/minion_deploy_01.wav",
+      "sha": "a6caf24a458216e0d89d463cbc3a58e5fc488f6c"
+    },
+    {
+      "file": "sfx/minion_wing_02.wav",
+      "sha": "4a7518795173ee65580c3a8da4aa5f25a5b949e3"
+    },
+    {
+      "file": "sfx/minipekka_deploy_01.wav",
+      "sha": "3ca1b104995d4a052c4658ab05354c1f3bf4c176"
+    },
+    {
+      "file": "sfx/minipekka_step_03.wav",
+      "sha": "8b5d1f95c928c2176885ad32264a58726d174af5"
+    },
+    {
+      "file": "sfx/mortar_fire_03.wav",
+      "sha": "bce6fa6b52e26fe01c77fd5cff429b2ca522167a"
+    },
+    {
+      "file": "sfx/musket_fire_02.wav",
+      "sha": "92dfae819b5e4ba229526a0b06e19364041030c2"
+    },
+    {
+      "file": "sfx/musket_impact_01.wav",
+      "sha": "69c1c17c0abce11f51895b93586cb47ac5872ccf"
+    },
+    {
+      "file": "sfx/musketeer_deploy_01.wav",
+      "sha": "0cbb9487276af1a00e47f02c846079be5843316c"
+    },
+    {
+      "file": "sfx/musketeer_reload_01.wav",
+      "sha": "db81c1710a92edd4def88bbaed1dafa18ab2c91c"
+    },
+    {
+      "file": "sfx/npc_die_02.wav",
+      "sha": "6ddc26cbc08aa484131f601bcf69a6bbe15ca5bf"
+    },
+    {
+      "file": "sfx/npc_die_04.wav",
+      "sha": "f5356d5fd41d2d314924122adc888591c0f084be"
+    },
+    {
+      "file": "sfx/open_chest_diamonds_02.wav",
+      "sha": "f93ff52a25717db373be681eeadac5c0ff3ca21a"
+    },
+    {
+      "file": "sfx/own_summon_die_03.wav",
+      "sha": "a606b6675962ac6ec834ae182fb3d5b94db12b94"
+    },
+    {
+      "file": "sfx/p_archer_dep_01.wav",
+      "sha": "59c6ac646c9bd6a13b84fe80ca191f916d8ae63f"
+    },
+    {
+      "file": "sfx/p_archer_hit_01.wav",
+      "sha": "ca23f4c5a5565057d24ad5e684b2f049081078bf"
+    },
+    {
+      "file": "sfx/p_flame_arrow_03.wav",
+      "sha": "04207fc775d0a100bdeded39671fb99de383a7e8"
+    },
+    {
+      "file": "sfx/pekka_atk_01.wav",
+      "sha": "03f4071a53485fddc64e1b4ad0e901df8a828232"
+    },
+    {
+      "file": "sfx/pekka_attack_hit_03.wav",
+      "sha": "2e5b5fe9a3ff5c636add7ef23379d29ef700241c"
+    },
+    {
+      "file": "sfx/pekka_deploy_01.wav",
+      "sha": "99b8897960736ce46b5efae8858295c8c8ee8987"
+    },
+    {
+      "file": "sfx/pekka_deploy_end_03.wav",
+      "sha": "ba265b8d1c8bfd082c225740866d24f5f6a45e0a"
+    },
+    {
+      "file": "sfx/pekka_footstep_02.wav",
+      "sha": "5bbacc654bce1c3e927918073999e7d8954c8274"
+    },
+    {
+      "file": "sfx/place_inferno_02.wav",
+      "sha": "6dac5258432bd133dfcf359d30809b1ba1af4f75"
+    },
+    {
+      "file": "sfx/poison_spell_01.wav",
+      "sha": "efd8c3eddc1d138bfd04426789e87fef14c8c069"
+    },
+    {
+      "file": "sfx/press_arena_01.wav",
+      "sha": "b318a1dd2a70d5c3d6033041cf6b4a7210b2db2b"
+    },
+    {
+      "file": "sfx/prince_andrew_use_02.wav",
+      "sha": "08221b1158006e522f8cb9dd8d8aff18a299c221"
+    },
+    {
+      "file": "sfx/prince_andrew_use_04.wav",
+      "sha": "a2678e16f7f5123551a6703f2262e72b1260e05a"
+    },
+    {
+      "file": "sfx/prince_andrew_use_09.wav",
+      "sha": "9be7cb7ab681b9340cf701cd023ef56e6af05b87"
+    },
+    {
+      "file": "sfx/prince_andrew_use_10.wav",
+      "sha": "659df5b5bc7156eb3a8a2454ca854226d028c858"
+    },
+    {
+      "file": "sfx/prince_charge_hit_01.wav",
+      "sha": "7236ffb22040a04d08e22d3b3e511a53f28a8fad"
+    },
+    {
+      "file": "sfx/prince_deploy_01.wav",
+      "sha": "c72a80469dace5cd48bcdf191d451e5c61370bc8"
+    },
+    {
+      "file": "sfx/prince_hit_01.wav",
+      "sha": "05e7fed36b32815544f4e180e969edb18645aed5"
+    },
+    {
+      "file": "sfx/princess_archer_atk_vo_02.wav",
+      "sha": "26bb80ca45ab53847570d542fcc57e27cdc5bcc8"
+    },
+    {
+      "file": "sfx/princess_archer_atk_vo_03.wav",
+      "sha": "f4f4a01c333a3db155bae8666e77947b32c97fc3"
+    },
+    {
+      "file": "sfx/princess_archer_atk_vo_04.wav",
+      "sha": "0ca88f8cbb3420735a8561d5d5fdac35ff590025"
+    },
+    {
+      "file": "sfx/princess_archer_atk_vo_06.wav",
+      "sha": "57e5a1f525a1300807dcad3c4a271fb8087a2df8"
+    },
+    {
+      "file": "sfx/princess_archer_dep_vo_01.wav",
+      "sha": "9b260afc9109057177670adc59788a8423c5ccd4"
+    },
+    {
+      "file": "sfx/princess_archer_dep_vo_02.wav",
+      "sha": "c407b52c6a5d3cded636ea6458aeca7972f2a4b4"
+    },
+    {
+      "file": "sfx/princess_archer_dep_vo_03.wav",
+      "sha": "035812b22ed41f12a6bed0716b3306e56d8cd628"
+    },
+    {
+      "file": "sfx/princess_archer_dep_vo_04.wav",
+      "sha": "73ae4ccffefe30dbb85facbb40521f88fd9e6dca"
+    },
+    {
+      "file": "sfx/rage_spell_01.wav",
+      "sha": "a4eb5a5c168ff7031449d0571b4c56487443b232"
+    },
+    {
+      "file": "sfx/rider_charge_03.wav",
+      "sha": "54c5baa18dff5b6780089e6f5410243874a81edc"
+    },
+    {
+      "file": "sfx/rocket_hit_01v2.wav",
+      "sha": "d02081a210893d457ab7bf32c069b77981708b1b"
+    },
+    {
+      "file": "sfx/rocket_launch_02v2.wav",
+      "sha": "508fc75924bd67321afa2ee07150bfba4d36837d"
+    },
+    {
+      "file": "sfx/royal_giant_deploy_01.wav",
+      "sha": "1700fb2e8d75a61f0af721a692154c5c813616cd"
+    },
+    {
+      "file": "sfx/royalgiant_fire_01.wav",
+      "sha": "ac9f161c604925d53e1da473dc7817b5a103e2a5"
+    },
+    {
+      "file": "sfx/royalgiant_fire_02.wav",
+      "sha": "c265da1ecff66df2d8ccf1354fd94e5852e90cc4"
+    },
+    {
+      "file": "sfx/royalgiant_fire_03.wav",
+      "sha": "72f7f9830767591831502aeb56c713a0abc4a345"
+    },
+    {
+      "file": "sfx/royalgiant_fire_04.wav",
+      "sha": "570c9cb5694d8b7b3ef03a20b3ad0b5d05dcec12"
+    },
+    {
+      "file": "sfx/royalgiant_fire_05.wav",
+      "sha": "bdfc690fe478a3a0064c8582abc59593aadb0fa3"
+    },
+    {
+      "file": "sfx/scroll_chat_01.wav",
+      "sha": "873b941fa742d5be6949d61082f6603cf73fbe9d"
+    },
+    {
+      "file": "sfx/scroll_close_08.wav",
+      "sha": "d629fc8f628d1f61edb0b88f18f5c50374138b9e"
+    },
+    {
+      "file": "sfx/scroll_fusion_01.wav",
+      "sha": "ff18ef4b068ef044ec5937ca6d2d760599941c30"
+    },
+    {
+      "file": "sfx/scroll_loading_01.wav",
+      "sha": "7d1b48cd3a510fbc39e6cc369bd8f8adb0b3cc50"
+    },
+    {
+      "file": "sfx/scroll_open_01v3333.wav",
+      "sha": "5342810fab7acedcc65f9e12a73107a28e971ede"
+    },
+    {
+      "file": "sfx/skeleton_arm_swing_02.wav",
+      "sha": "f0eff9c9ce986f5f334d9ba7777dbce9977fa23f"
+    },
+    {
+      "file": "sfx/skeleton_atk_03.wav",
+      "sha": "e6f57be288aa0102a78bf85d7cfa0d149e048ba0"
+    },
+    {
+      "file": "sfx/skeleton_bomb_explo_01.wav",
+      "sha": "73540f5694678098edb04e61153abb4e7b088000"
+    },
+    {
+      "file": "sfx/skeleton_deploy_03.wav",
+      "sha": "35af8edff6680a6cf8926be387554cf446cd0d7b"
+    },
+    {
+      "file": "sfx/skeleton_deploy_end_01.wav",
+      "sha": "feb6988898d4aa597d6c7649298c380b35ad8e19"
+    },
+    {
+      "file": "sfx/sound_fireball_hit_01.wav",
+      "sha": "407d1db35df731c6e3aa3fa86f2456709dd720c4"
+    },
+    {
+      "file": "sfx/spear_gob_atk_01.wav",
+      "sha": "c541ca5544d36a808bb68902f01793ee2b7997b7"
+    },
+    {
+      "file": "sfx/spear_gob_atk_02.wav",
+      "sha": "701211f1701a7c47bec70ead2b971fb0132162d7"
+    },
+    {
+      "file": "sfx/spear_gob_atk_03.wav",
+      "sha": "5cd46d5fadf877a3817516ade46cde688d0daa9f"
+    },
+    {
+      "file": "sfx/spear_gob_atk_hit_01.wav",
+      "sha": "9262aebd23d24930c70cfa12a442ecc000a29f59"
+    },
+    {
+      "file": "sfx/spear_gob_atk_swish_01.wav",
+      "sha": "17623f7389dc367e899c3afeb82fe500dd363bc4"
+    },
+    {
+      "file": "sfx/spear_gob_dep_01v2.wav",
+      "sha": "2443a4c96062daf9edb1190130a66d907839981a"
+    },
+    {
+      "file": "sfx/speech_bubble_tut_03.wav",
+      "sha": "c59452b69a3a8e6ee0812f61bec25bcfe1a54ba6"
+    },
+    {
+      "file": "sfx/spell_not_ready_01.wav",
+      "sha": "dc929745ad4a40a230be4f7416231276959c53a4"
+    },
+    {
+      "file": "sfx/spellarena_jing_01.wav",
+      "sha": "a94d1d98db97aa196bdaccc2d6d901026a744f6e"
+    },
+    {
+      "file": "sfx/spellcast01.wav",
+      "sha": "26fde62d6326eae0e51e8ab575debb65e7a529cf"
+    },
+    {
+      "file": "sfx/star_chest_open_01.wav",
+      "sha": "e2a2004435e5faa1a5dd04a45389baeb235a6dbc"
+    },
+    {
+      "file": "sfx/stone_golem_deploy_02.wav",
+      "sha": "ba79d08990d4fee1f8379c232c4f3f0ea83d6583"
+    },
+    {
+      "file": "sfx/summon_own_07.wav",
+      "sha": "0c94c0464abcd0a013a8ec7df782ae671b0a2218"
+    },
+    {
+      "file": "sfx/summon_witch_01.wav",
+      "sha": "8d8e6b92aca5931f79c8dbbb81fc015a9ff8f92f"
+    },
+    {
+      "file": "sfx/supercell_jingle.wav",
+      "sha": "c16b5c55f84d6abf43d1d40df6ab63fd10edba84"
+    },
+    {
+      "file": "sfx/tap_coins_01.wav",
+      "sha": "38dbeb9add2d398dac02fc8e5696edd9f0d25ee0"
+    },
+    {
+      "file": "sfx/tap_gems_02.wav",
+      "sha": "31c6bcd1210d67407bad60caa9048e45ab6058c0"
+    },
+    {
+      "file": "sfx/tap_locked_chest_01.wav",
+      "sha": "b1579bb6222d03a3d85897b71faf4233112a1789"
+    },
+    {
+      "file": "sfx/target_01.wav",
+      "sha": "80644431318279f07340642fd15e25f578b560bd"
+    },
+    {
+      "file": "sfx/tesla_close_02.wav",
+      "sha": "fbd256f67e6224e15561a09f899af6eacd8df89e"
+    },
+    {
+      "file": "sfx/tesla_open_02.wav",
+      "sha": "8bf09a2e135cd0b936493c9ca5cdd35e5a37eab9"
+    },
+    {
+      "file": "sfx/tesla_zap_01.wav",
+      "sha": "b5bd80e3c58e5929a016b36b06669807f9855296"
+    },
+    {
+      "file": "sfx/tex_whoosh_02.wav",
+      "sha": "1f18473337736a1fe0ceef8db628380b95279328"
+    },
+    {
+      "file": "sfx/text_whoosh_in_03.wav",
+      "sha": "a8da0e530b68b1f61876cf548ff89a3a85441439"
+    },
+    {
+      "file": "sfx/tinymite_attack_04.wav",
+      "sha": "6811de2fccc445c55b5ef8ab95b2de0c108516c1"
+    },
+    {
+      "file": "sfx/tinymite_attack_05.wav",
+      "sha": "a50a1ff8125c79c0b17d15f3eb2a86ca69fd5f91"
+    },
+    {
+      "file": "sfx/tinymite_attack_06.wav",
+      "sha": "324bde7267264e3e0935f56f1e592e6d6168a8bb"
+    },
+    {
+      "file": "sfx/tombstone_deploy_01.wav",
+      "sha": "f3211b29915e24715152401c6b4014190cfb1f0c"
+    },
+    {
+      "file": "sfx/tower_attacked_02.wav",
+      "sha": "4b59aea5b0831db29fcc5057930b57820caed710"
+    },
+    {
+      "file": "sfx/tut_count_01.wav",
+      "sha": "61d39098d0354ce92f1455b24bbd6684164a03f0"
+    },
+    {
+      "file": "sfx/tut_jing_01.wav",
+      "sha": "73c01293dc718e5b8f88ba31fe069ee555bce8cd"
+    },
+    {
+      "file": "sfx/tut_jing_02.wav",
+      "sha": "7ac8bd3228bd67c8e18e5778d6ac6c9009aabc0a"
+    },
+    {
+      "file": "sfx/tutorial_plink_02v2.wav",
+      "sha": "d3d15dfbf3620b9c6c863bafa94b9b6ae8e5a6bb"
+    },
+    {
+      "file": "sfx/unlock_chest_start_01.wav",
+      "sha": "2a3d8ed32bac68318c8a31756908cb144b9f9182"
+    },
+    {
+      "file": "sfx/up_down_swipe_01.wav",
+      "sha": "496e0a26a1551174ac64d20b9b44a9e07d65a37c"
+    },
+    {
+      "file": "sfx/upgrade_card_01.wav",
+      "sha": "780e81f630f146734ff6c068d27572962b484297"
+    },
+    {
+      "file": "sfx/valkyrie_atk_04.wav",
+      "sha": "12b0f75631ea0f7d0d0fd01f62111601020e4e5e"
+    },
+    {
+      "file": "sfx/valkyrie_atk_05.wav",
+      "sha": "ee191b13e50cc33cde0b7259c0efd5f579a6020e"
+    },
+    {
+      "file": "sfx/valkyrie_atk_06.wav",
+      "sha": "5b952be87e33fc8174d1f0ae67777b06637b957c"
+    },
+    {
+      "file": "sfx/valkyrie_atk_07.wav",
+      "sha": "18b8cdb4229a0aee70ef5a5a23e6ee7280eb4807"
+    },
+    {
+      "file": "sfx/valkyrie_atk_08.wav",
+      "sha": "8b997410bbbc345699bfb12cf71de3e03ef7183c"
+    },
+    {
+      "file": "sfx/valkyrie_atk_09.wav",
+      "sha": "281ddc75e05bd2ca4d87a7cfd7acbc123663d40d"
+    },
+    {
+      "file": "sfx/valkyrie_atk_10.wav",
+      "sha": "1a509827cdd5d431261b00d9b91e87757deeabd6"
+    },
+    {
+      "file": "sfx/valkyrie_deploy_02.wav",
+      "sha": "d0acf815ad6cb8ff5bf2bd8d02923f8891382bf7"
+    },
+    {
+      "file": "sfx/valkyrie_deploy_end_02.wav",
+      "sha": "1b885c070247b8678bb6f182f34dd2a4b4968605"
+    },
+    {
+      "file": "sfx/valkyrie_hit_01.wav",
+      "sha": "e07b4f9e3f40a10a3fffeb5e46e4caf74de581f6"
+    },
+    {
+      "file": "sfx/witch_attack_02.wav",
+      "sha": "b973affd30cfe7b16306b509ba69bc984d4a1735"
+    },
+    {
+      "file": "sfx/witch_summon_02.wav",
+      "sha": "c56cc15e1aed268fb792188153b4c6f15aee6865"
+    },
+    {
+      "file": "sfx/wiz_atk_vo_01.wav",
+      "sha": "27ae056d2fff2d9616c3e7373209369bc64ad368"
+    },
+    {
+      "file": "sfx/wiz_atk_vo_02.wav",
+      "sha": "7ea5d5591483e1d90f95de798b42eb2cc089c450"
+    },
+    {
+      "file": "sfx/wiz_atk_vo_03.wav",
+      "sha": "a9142c366003a0e673dd48bb030c8130acc7dfaa"
+    },
+    {
+      "file": "sfx/wiz_atk_vo_04.wav",
+      "sha": "02f0777a922633459c447584990fe3f101233107"
+    },
+    {
+      "file": "sfx/wiz_deploy_vo_01.wav",
+      "sha": "990b420fda582910519e99fe054fce3b7f75503f"
+    },
+    {
+      "file": "sfx/wiz_deploy_vo_02.wav",
+      "sha": "22ae227bb65eac3202ef532d01d484286741a427"
+    },
+    {
+      "file": "sfx/wiz_fireball_01v9.wav",
+      "sha": "8fe6ea0bfb58affa4bde921fa46cf57858e701b5"
+    },
+    {
+      "file": "sfx/wiz_hurt_05.wav",
+      "sha": "301046706748405eb6f64f8c1546b92fcea7b859"
+    },
+    {
+      "file": "sfx/wiz_step_01.wav",
+      "sha": "1cab28d2c9d87742b7a829d02622fab3e9f07621"
+    },
+    {
+      "file": "sfx/wooden_chest_land_01.wav",
+      "sha": "f0e17adb6b12bda221f2c854840cf100347bfc2b"
+    },
+    {
+      "file": "sfx/wooden_chest_open_01.wav",
+      "sha": "03f4670c2e08e01ea38dc96f3addcd1938db0ad6"
+    },
+    {
+      "file": "sfx/xbow_fire_01.wav",
+      "sha": "63ccf5c9336c428c65f4bb342714c1212e156e91"
+    },
+    {
+      "file": "sfx/xbow_place_02.wav",
+      "sha": "ace73c2672c171386657d827097177165d3ffd66"
+    },
+    {
+      "file": "sfx/zap_02.wav",
+      "sha": "9b865056e023bd3e6ac5d2c8166a4f1b8deefe4f"
+    }
+  ],
+  "sha": "8f8bb79b14efb8f2c0e6542c15955839d6f9b7eb",
+  "version": "2.1507.5"
+}
