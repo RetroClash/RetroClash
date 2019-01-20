@@ -14,10 +14,6 @@ Start contributing by making pull-requests.
 
 It's opensourced with GPL license. Anything that will pop which use any part of the logic contained in this repo, will be forced to release opensource. Instead of wasting time working on thousand private shits, build one great together!
 
-### Need Help?
-Here you can find some tutorials:
-[How to setup MySql](https://github.com/RetroClash/RetroClash/wiki/How-to-setup-RetroClash)
-
 ### License
 
 GPL-3.0
