@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetroClashPatchCreator", "R
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetroClashCsvConverter", "RetroClashCsvConverter\RetroClashCsvConverter.csproj", "{5F50C7D5-E37A-437D-ACB6-E6A80B6FB777}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RetroClash", "RetroClashCore\RetroClash.csproj", "{206D9C11-2E58-4455-89DF-EF5108D7BD95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RetroClash", "RetroClash\RetroClash.csproj", "{206D9C11-2E58-4455-89DF-EF5108D7BD95}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RetroGames", "RetroGames\RetroGames.csproj", "{79F55BDF-13C4-4961-8A7A-9FF5CAC631B6}"
 EndProject
