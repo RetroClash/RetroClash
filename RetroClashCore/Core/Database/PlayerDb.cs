@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
 using Newtonsoft.Json;
-using RetroClashCore.Logic;
-using RetroClashCore.Logic.Manager;
+using RetroClash.Logic;
+using RetroClash.Logic.Manager;
 using RetroGames.Helpers;
 
-namespace RetroClashCore.Database
+namespace RetroClash.Core.Database
 {
     public class PlayerDb
     {
@@ -137,9 +137,9 @@ namespace RetroClashCore.Database
                 )
                 {
 #pragma warning disable 618
-                    cmd.Parameters?.Add("@language", player.Language);
-                    cmd.Parameters?.Add("@avatar", JsonConvert.SerializeObject(player, Settings));
-                    cmd.Parameters?.Add("@objects", player.LogicGameObjectManager.Json);
+                    cmd.Parameters?.AddWithValue("@language", player.Language);
+                    cmd.Parameters?.AddWithValue("@avatar", JsonConvert.SerializeObject(player, Settings));
+                    cmd.Parameters?.AddWithValue("@objects", player.LogicGameObjectManager.Json);
 #pragma warning restore 618
 
                     await ExecuteAsync(cmd);
@@ -238,9 +238,9 @@ namespace RetroClashCore.Database
                 )
                 {
 #pragma warning disable 618
-                    cmd.Parameters?.Add("@fb", player.FacebookId);
-                    cmd.Parameters?.Add("@avatar", JsonConvert.SerializeObject(player, Settings));
-                    cmd.Parameters?.Add("@objects", player.LogicGameObjectManager.Json);
+                    cmd.Parameters?.AddWithValue("@fb", player.FacebookId);
+                    cmd.Parameters?.AddWithValue("@avatar", JsonConvert.SerializeObject(player, Settings));
+                    cmd.Parameters?.AddWithValue("@objects", player.LogicGameObjectManager.Json);
 #pragma warning restore 618
 
                     await ExecuteAsync(cmd);

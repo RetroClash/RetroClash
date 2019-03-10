@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Timers;
-using RetroClashCore.Files;
-using RetroClashCore.Files.Logic;
-using RetroClashCore.Logic;
+using RetroClash.Files;
+using RetroClash.Files.Logic;
+using RetroClash.Logic;
 using RetroGames.Helpers;
 
-namespace RetroClashCore.Database.Caching
+namespace RetroClash.Core.Database.Caching
 {
     public class Leaderboards
     {

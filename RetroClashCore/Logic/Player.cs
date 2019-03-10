@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.IO;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
-using RetroClashCore.Database;
-using RetroClashCore.Logic.Battle;
-using RetroClashCore.Logic.Manager;
-using RetroClashCore.Logic.Replay.Items;
-using RetroClashCore.Logic.StreamEntry;
+using RetroClash.Core.Database;
+using RetroClash.Logic.Battle;
+using RetroClash.Logic.Manager;
+using RetroClash.Logic.Replay.Items;
+using RetroClash.Logic.StreamEntry;
 using RetroGames.Helpers;
 
-namespace RetroClashCore.Logic
+namespace RetroClash.Logic
 {
     public class Player : IDisposable
     {

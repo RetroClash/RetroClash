@@ -1,9 +1,9 @@
 ﻿using System;
 using System.IO;
 using NLog;
-using RetroClashCore.Logic;
+using RetroClash.Logic;
 
-namespace RetroClashCore
+namespace RetroClash
 {
     public class Logger
     {

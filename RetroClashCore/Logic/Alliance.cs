@@ -4,13 +4,13 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Timers;
 using Newtonsoft.Json;
-using RetroClashCore.Database;
-using RetroClashCore.Logic.Slots;
-using RetroClashCore.Logic.StreamEntry;
+using RetroClash.Core.Database;
+using RetroClash.Logic.Slots;
+using RetroClash.Logic.StreamEntry;
 using RetroGames.Helpers;
 using RetroGames.Logic;
 
-namespace RetroClashCore.Logic
+namespace RetroClash.Logic
 {
     public class Alliance
     {

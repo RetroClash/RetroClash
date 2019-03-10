@@ -4,7 +4,7 @@ using System.Reflection;
 using RetroGames.Files.CsvHelpers;
 using RetroGames.Files.CsvReader;
 
-namespace RetroClashCore.Files.CsvHelpers
+namespace RetroClash.Files.CsvHelpers
 {
     public class Data
     {

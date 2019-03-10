@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Threading.Tasks;
-using RetroClashCore.Logic.Manager.Items;
-using RetroClashCore.Protocol.Messages.Server;
+using RetroClash.Logic.Manager.Items;
+using RetroClash.Protocol.Messages.Server;
 
-namespace RetroClashCore.Logic.Manager
+namespace RetroClash.Logic.Manager
 {
     public class LogicGlobalChatManager
     {

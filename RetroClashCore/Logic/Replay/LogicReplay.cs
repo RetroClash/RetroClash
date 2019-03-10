@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using Newtonsoft.Json;
-using RetroClashCore.Logic.Manager;
-using RetroClashCore.Logic.Replay.Items;
+using RetroClash.Logic.Manager;
+using RetroClash.Logic.Replay.Items;
 
-namespace RetroClashCore.Logic.Replay
+namespace RetroClash.Logic.Replay
 {
     public class LogicReplay
     {

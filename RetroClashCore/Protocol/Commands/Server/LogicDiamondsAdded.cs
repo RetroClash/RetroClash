@@ -1,8 +1,8 @@
 ﻿using System.Threading.Tasks;
-using RetroClashCore.Logic;
+using RetroClash.Logic;
 using RetroGames.Helpers;
 
-namespace RetroClashCore.Protocol.Commands.Server
+namespace RetroClash.Protocol.Commands.Server
 {
     public class LogicDiamondsAdded : LogicCommand
     {

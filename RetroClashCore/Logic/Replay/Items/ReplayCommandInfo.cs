@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace RetroClashCore.Logic.Replay.Items
+namespace RetroClash.Logic.Replay.Items
 {
     public class ReplayCommandInfo
     {

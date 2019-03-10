@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Threading.Tasks;
-using RetroClashCore.Database;
-using RetroClashCore.Logic;
-using RetroClashCore.Logic.Manager.Items;
-using RetroClashCore.Protocol.Messages.Server;
+using RetroClash.Core.Database;
+using RetroClash.Logic;
+using RetroClash.Logic.Manager.Items;
+using RetroClash.Protocol.Messages.Server;
 using RetroGames.Helpers;
 
-namespace RetroClashCore.Protocol.Messages.Client
+namespace RetroClash.Protocol.Messages.Client
 {
     public class SendGlobalChatLineMessage : PiranhaMessage
     {

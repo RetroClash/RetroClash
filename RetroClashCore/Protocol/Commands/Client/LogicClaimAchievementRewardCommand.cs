@@ -1,11 +1,11 @@
 ﻿using System.Threading.Tasks;
-using RetroClashCore.Files;
-using RetroClashCore.Files.Logic;
-using RetroClashCore.Logic;
-using RetroClashCore.Logic.Manager.Items;
+using RetroClash.Files;
+using RetroClash.Files.Logic;
+using RetroClash.Logic;
+using RetroClash.Logic.Manager.Items;
 using RetroGames.Helpers;
 
-namespace RetroClashCore.Protocol.Commands.Client
+namespace RetroClash.Protocol.Commands.Client
 {
     public class LogicClaimAchievementRewardCommand : LogicCommand
     {

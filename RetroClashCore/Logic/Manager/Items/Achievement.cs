@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace RetroClashCore.Logic.Manager.Items
+namespace RetroClash.Logic.Manager.Items
 {
     public class Achievement
     {

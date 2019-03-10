@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace RetroClashCore.Files
+namespace RetroClash.Files
 {
     public class Levels : IDisposable
     {

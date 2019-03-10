@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using RetroClashCore.Logic;
-using RetroClashCore.Logic.StreamEntry;
+using RetroClash.Logic;
+using RetroClash.Logic.StreamEntry;
 using RetroGames.Helpers;
 
-namespace RetroClashCore.Protocol.Messages.Server
+namespace RetroClash.Protocol.Messages.Server
 {
     public class AllianceStreamMessage : PiranhaMessage
     {

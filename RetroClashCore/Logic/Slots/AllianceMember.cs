@@ -4,7 +4,7 @@ using Newtonsoft.Json;
 using RetroGames.Helpers;
 using RetroGames.Logic;
 
-namespace RetroClashCore.Logic.Slots
+namespace RetroClash.Logic.Slots
 {
     public class AllianceMember
     {

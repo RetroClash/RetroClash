@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
-using RetroClashCore.Files.Logic;
+using RetroClash.Files.Logic;
 using RetroGames.Files.CsvHelpers;
 using RetroGames.Files.CsvReader;
 
-namespace RetroClashCore.Files.CsvHelpers
+namespace RetroClash.Files.CsvHelpers
 {
     public class DataTable
     {

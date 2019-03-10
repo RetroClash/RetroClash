@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using RetroGames.Helpers;
 
-namespace RetroClashCore.Logic.StreamEntry.Alliance
+namespace RetroClash.Logic.StreamEntry.Alliance
 {
     public class JoinRequestAllianceStreamEntry : AllianceStreamEntry
     {

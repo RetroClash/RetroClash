@@ -2,11 +2,11 @@
 using System.Linq;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
-using RetroClashCore.Logic;
-using RetroClashCore.Logic.Manager;
+using RetroClash.Logic;
+using RetroClash.Logic.Manager;
 using StackExchange.Redis;
 
-namespace RetroClashCore.Database
+namespace RetroClash.Core.Database
 {
     public class Redis
     {

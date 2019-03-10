@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using RetroClashCore.Files.CsvHelpers;
-using RetroClashCore.Logic;
+using RetroClash.Files.CsvHelpers;
+using RetroClash.Logic;
 using RetroGames.Files.CsvReader;
 
-namespace RetroClashCore.Files.CsvReader
+namespace RetroClash.Files.CsvReader
 {
     public class Gamefiles : IDisposable
     {

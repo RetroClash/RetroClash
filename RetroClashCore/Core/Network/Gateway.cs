@@ -3,18 +3,18 @@ using System.Net;
 using System.Net.Sockets;
 using System.Threading;
 using System.Threading.Tasks;
-using RetroClashCore.Logic;
-using RetroClashCore.Protocol;
+using RetroClash.Logic;
+using RetroClash.Protocol;
 using RetroGames.Helpers;
 
-namespace RetroClashCore.Network
+namespace RetroClash.Core.Network
 {
     public class Gateway
     {
         private static Semaphore _semaphore;
-        private readonly Pool<byte[]> _bufferPool = new Pool<byte[]>();
-        private readonly Pool<SocketAsyncEventArgs> _eventPool = new Pool<SocketAsyncEventArgs>();
-        private readonly Pool<UserToken> _tokenPool = new Pool<UserToken>();
+        private readonly Pool<byte[]> _bufferPool = new Pool<byte[]>(Configuration.MaxClients);
+        private readonly Pool<SocketAsyncEventArgs> _eventPool = new Pool<SocketAsyncEventArgs>(Configuration.MaxClients * 2);
+        private readonly Pool<UserToken> _tokenPool = new Pool<UserToken>(Configuration.MaxClients);
 
         public int ConnectedSockets;
 
@@ -58,7 +58,7 @@ namespace RetroClashCore.Network
         {
             get
             {
-                var asyncEvent = _eventPool.Pop;
+                var asyncEvent = _eventPool.Pop();
 
                 if (asyncEvent != null) return asyncEvent;
 
@@ -69,9 +69,9 @@ namespace RetroClashCore.Network
             }
         }
 
-        public byte[] GetBuffer => _bufferPool.Pop ?? new byte[Configuration.BufferSize];
+        public byte[] GetBuffer => _bufferPool.Pop() ?? new byte[Configuration.BufferSize];
 
-        public UserToken GetToken => _tokenPool.Pop ?? new UserToken();
+        public UserToken GetToken => _tokenPool.Pop() ?? new UserToken();
 
         public async Task StartAsync()
         {

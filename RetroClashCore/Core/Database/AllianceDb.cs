@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
 using Newtonsoft.Json;
-using RetroClashCore.Logic;
+using RetroClash.Logic;
 
-namespace RetroClashCore.Database
+namespace RetroClash.Core.Database
 {
     public class AllianceDb
     {
@@ -134,8 +134,8 @@ namespace RetroClashCore.Database
                 )
                 {
 #pragma warning disable 618
-                    cmd.Parameters?.Add("@name", alliance.Name);
-                    cmd.Parameters?.Add("@data", JsonConvert.SerializeObject(alliance, Settings));
+                    cmd.Parameters?.AddWithValue("@name", alliance.Name);
+                    cmd.Parameters?.AddWithValue("@data", JsonConvert.SerializeObject(alliance, Settings));
 #pragma warning restore 618
 
                     await ExecuteAsync(cmd);
@@ -263,9 +263,9 @@ namespace RetroClashCore.Database
                 )
                 {
 #pragma warning disable 618
-                    cmd.Parameters?.Add("@name", alliance.Name);
-                    cmd.Parameters?.Add("@isFull", alliance.IsFull);
-                    cmd.Parameters?.Add("@data", JsonConvert.SerializeObject(alliance, Settings));
+                    cmd.Parameters?.AddWithValue("@name", alliance.Name);
+                    cmd.Parameters?.AddWithValue("@isFull", alliance.IsFull);
+                    cmd.Parameters?.AddWithValue("@data", JsonConvert.SerializeObject(alliance, Settings));
 #pragma warning restore 618
 
                     await ExecuteAsync(cmd);

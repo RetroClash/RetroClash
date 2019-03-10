@@ -1,8 +1,8 @@
 ﻿using System.Threading.Tasks;
-using RetroClashCore.Logic;
+using RetroClash.Logic;
 using RetroGames.Helpers;
 
-namespace RetroClashCore.Protocol.Commands.Client
+namespace RetroClash.Protocol.Commands.Client
 {
     public class LogicClearObstacleCommand : LogicCommand
     {

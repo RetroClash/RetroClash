@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-using RetroClashCore.Files;
-using RetroClashCore.Files.Logic;
-using RetroClashCore.Logic.Manager.Items;
+using RetroClash.Files;
+using RetroClash.Files.Logic;
+using RetroClash.Logic.Manager.Items;
 
-namespace RetroClashCore.Logic.Manager
+namespace RetroClash.Logic.Manager
 {
     public class LogicGameObjectManager
     {

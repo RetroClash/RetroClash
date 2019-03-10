@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Threading.Tasks;
-using RetroClashCore.Logic;
-using RetroClashCore.Protocol.Messages.Server;
+using RetroClash.Logic;
+using RetroClash.Protocol.Messages.Server;
 using RetroGames.Helpers;
 
-namespace RetroClashCore.Protocol.Messages.Client
+namespace RetroClash.Protocol.Messages.Client
 {
     public class KeepAliveMessage : PiranhaMessage
     {

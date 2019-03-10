@@ -1,4 +1,4 @@
-﻿namespace RetroClashCore.Logic.StreamEntry.Avatar
+﻿namespace RetroClash.Logic.StreamEntry.Avatar
 {
     public class DeviceLinkedStreamEntry : AvatarStreamEntry
     {

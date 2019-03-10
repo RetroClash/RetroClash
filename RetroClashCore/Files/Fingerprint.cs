@@ -3,7 +3,7 @@ using System.IO;
 using System.Linq;
 using Newtonsoft.Json.Linq;
 
-namespace RetroClashCore.Files
+namespace RetroClash.Files
 {
     public class Fingerprint : IDisposable
     {

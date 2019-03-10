@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using RetroGames.Helpers;
 
-namespace RetroClashCore.Logic.StreamEntry
+namespace RetroClash.Logic.StreamEntry
 {
     public class AvatarStreamEntry
     {

@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
-using RetroClashCore.Logic;
+using RetroClash.Logic;
 
-namespace RetroClashCore.Protocol.Messages.Server
+namespace RetroClash.Protocol.Messages.Server
 {
     public class AllianceDataMessage : PiranhaMessage
     {

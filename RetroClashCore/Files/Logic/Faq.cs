@@ -1,7 +1,7 @@
-using RetroClashCore.Files.CsvHelpers;
+using RetroClash.Files.CsvHelpers;
 using RetroGames.Files.CsvReader;
 
-namespace RetroClashCore.Files.Logic
+namespace RetroClash.Files.Logic
 {
     public class Faq : Data
     {

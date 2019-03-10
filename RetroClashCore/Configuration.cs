@@ -2,7 +2,7 @@
 using System.IO;
 using Newtonsoft.Json;
 
-namespace RetroClashCore
+namespace RetroClash
 {
     public class Configuration
     {

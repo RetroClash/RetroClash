@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using RetroClashCore.Logic.Manager.Items;
+using RetroClash.Logic.Manager.Items;
 
-namespace RetroClashCore.Logic.Manager
+namespace RetroClash.Logic.Manager
 {
     public class LogicResourcesManager : List<Resource>
     {

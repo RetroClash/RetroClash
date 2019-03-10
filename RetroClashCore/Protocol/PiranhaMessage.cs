@@ -2,10 +2,10 @@
 using System.IO;
 using System.Text;
 using System.Threading.Tasks;
-using RetroClashCore.Logic;
+using RetroClash.Logic;
 using RetroGames.Helpers;
 
-namespace RetroClashCore.Protocol
+namespace RetroClash.Protocol
 {
     public class PiranhaMessage : IDisposable
     {

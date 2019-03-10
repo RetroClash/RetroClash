@@ -1,9 +1,9 @@
 ﻿using System;
 using Newtonsoft.Json;
-using RetroClashCore.Files;
-using RetroClashCore.Files.Logic;
+using RetroClash.Files;
+using RetroClash.Files.Logic;
 
-namespace RetroClashCore.Logic.Manager
+namespace RetroClash.Logic.Manager
 {
     public class LogicShield
     {

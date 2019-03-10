@@ -1,9 +1,9 @@
 ﻿using System.Threading.Tasks;
-using RetroClashCore.Logic;
-using RetroClashCore.Logic.Replay.Items;
+using RetroClash.Logic;
+using RetroClash.Logic.Replay.Items;
 using RetroGames.Helpers;
 
-namespace RetroClashCore.Protocol.Commands.Client
+namespace RetroClash.Protocol.Commands.Client
 {
     public class LogicCastSpellCommand : LogicCommand
     {

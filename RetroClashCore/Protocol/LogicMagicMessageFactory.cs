@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using RetroClashCore.Protocol.Messages.Client;
+using RetroClash.Protocol.Messages.Client;
 
-namespace RetroClashCore.Protocol
+namespace RetroClash.Protocol
 {
     public class LogicMagicMessageFactory
     {

@@ -3,9 +3,9 @@ using System.Collections.Concurrent;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Timers;
-using RetroClashCore.Logic;
+using RetroClash.Logic;
 
-namespace RetroClashCore.Database.Caching
+namespace RetroClash.Core.Database.Caching
 {
     public class Alliances : ConcurrentDictionary<long, Alliance>
     {

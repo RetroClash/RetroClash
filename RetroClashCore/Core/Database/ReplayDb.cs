@@ -2,10 +2,10 @@
 using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
 using Newtonsoft.Json;
-using RetroClashCore.Logic;
-using RetroClashCore.Logic.Battle;
+using RetroClash.Logic;
+using RetroClash.Logic.Battle;
 
-namespace RetroClashCore.Database
+namespace RetroClash.Core.Database
 {
     public class ReplayDb
     {
@@ -194,7 +194,7 @@ namespace RetroClashCore.Database
                 )
                 {
 #pragma warning disable 618
-                    cmd.Parameters?.Add("@data", battle);
+                    cmd.Parameters?.AddWithValue("@data", battle);
 #pragma warning restore 618
 
                     await ExecuteAsync(cmd);

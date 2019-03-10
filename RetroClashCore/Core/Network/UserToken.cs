@@ -2,9 +2,9 @@
 using System.IO;
 using System.Net.Sockets;
 using System.Threading.Tasks;
-using RetroClashCore.Logic;
+using RetroClash.Logic;
 
-namespace RetroClashCore.Network
+namespace RetroClash.Core.Network
 {
     public class UserToken : IDisposable
     {

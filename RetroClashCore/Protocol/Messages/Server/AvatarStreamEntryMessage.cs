@@ -1,8 +1,8 @@
 ﻿using System.Threading.Tasks;
-using RetroClashCore.Logic;
-using RetroClashCore.Logic.StreamEntry;
+using RetroClash.Logic;
+using RetroClash.Logic.StreamEntry;
 
-namespace RetroClashCore.Protocol.Messages.Server
+namespace RetroClash.Protocol.Messages.Server
 {
     public class AvatarStreamEntryMessage : PiranhaMessage
     {

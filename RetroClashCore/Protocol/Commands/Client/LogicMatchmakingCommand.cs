@@ -1,10 +1,10 @@
 ﻿using System.Threading.Tasks;
-using RetroClashCore.Logic;
-using RetroClashCore.Logic.Battle;
-using RetroClashCore.Protocol.Messages.Server;
+using RetroClash.Logic;
+using RetroClash.Logic.Battle;
+using RetroClash.Protocol.Messages.Server;
 using RetroGames.Helpers;
 
-namespace RetroClashCore.Protocol.Commands.Client
+namespace RetroClash.Protocol.Commands.Client
 {
     public class LogicMatchmakingCommand : LogicCommand
     {

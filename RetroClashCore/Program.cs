@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Threading.Tasks;
-using RetroClashCore.Database;
-using RetroClashCore.Logic;
+using RetroClash.Core.Database;
+using RetroClash.Logic;
 using RetroGames.Helpers;
 
-namespace RetroClashCore
+namespace RetroClash
 {
     public class Program
     {

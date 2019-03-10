@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
-using RetroClashCore.Database;
-using RetroClashCore.Logic.Replay;
-using RetroClashCore.Logic.Replay.Items;
-using RetroClashCore.Logic.StreamEntry.Avatar;
+using RetroClash.Core.Database;
+using RetroClash.Logic.Replay;
+using RetroClash.Logic.Replay.Items;
+using RetroClash.Logic.StreamEntry.Avatar;
 using RetroGames.Helpers;
 
-namespace RetroClashCore.Logic.Battle
+namespace RetroClash.Logic.Battle
 {
     public class PvbBattle
     {

@@ -1,9 +1,9 @@
 ﻿using System.IO;
 using System.Threading.Tasks;
-using RetroClashCore.Logic;
+using RetroClash.Logic;
 using RetroGames.Helpers;
 
-namespace RetroClashCore.Protocol.Messages.Server
+namespace RetroClash.Protocol.Messages.Server
 {
     public class AllianceRankingListMessage : PiranhaMessage
     {

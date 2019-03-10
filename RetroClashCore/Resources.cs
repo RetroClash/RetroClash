@@ -1,12 +1,12 @@
 ﻿using System;
-using RetroClashCore.Database;
-using RetroClashCore.Database.Caching;
-using RetroClashCore.Files;
-using RetroClashCore.Logic.Manager;
-using RetroClashCore.Network;
+using RetroClash.Core.Database;
+using RetroClash.Core.Database.Caching;
+using RetroClash.Files;
+using RetroClash.Logic.Manager;
+using RetroClash.Core.Network;
 using RetroGames.Helpers;
 
-namespace RetroClashCore
+namespace RetroClash
 {
     public static class Resources
     {

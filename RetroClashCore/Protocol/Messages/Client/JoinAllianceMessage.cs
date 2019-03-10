@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Threading.Tasks;
-using RetroClashCore.Logic;
-using RetroClashCore.Logic.Slots;
-using RetroClashCore.Logic.StreamEntry.Alliance;
-using RetroClashCore.Protocol.Commands.Server;
-using RetroClashCore.Protocol.Messages.Server;
+using RetroClash.Logic;
+using RetroClash.Logic.Slots;
+using RetroClash.Logic.StreamEntry.Alliance;
+using RetroClash.Protocol.Commands.Server;
+using RetroClash.Protocol.Messages.Server;
 using RetroGames.Helpers;
 
-namespace RetroClashCore.Protocol.Messages.Client
+namespace RetroClash.Protocol.Messages.Client
 {
     public class JoinAllianceMessage : PiranhaMessage
     {

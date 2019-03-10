@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using RetroClashCore.Protocol.Commands.Client;
+using RetroClash.Protocol.Commands.Client;
 
-namespace RetroClashCore.Protocol
+namespace RetroClash.Protocol
 {
     public class LogicCommandManager
     {

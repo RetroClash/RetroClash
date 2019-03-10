@@ -1,4 +1,4 @@
-﻿namespace RetroClashCore.Logic
+﻿namespace RetroClash.Logic
 {
     public class LogicUtils
     {

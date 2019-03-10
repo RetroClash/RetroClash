@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
-using RetroClashCore.Network;
-using RetroClashCore.Protocol;
+using RetroClash.Core.Network;
+using RetroClash.Protocol;
 using RetroGames.Crypto.RC4;
 using RetroGames.Helpers;
 
-namespace RetroClashCore.Logic
+namespace RetroClash.Logic
 {
     public class Device : IDisposable
     {

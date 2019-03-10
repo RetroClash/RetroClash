@@ -1,7 +1,7 @@
-﻿using RetroClashCore.Logic;
+﻿using RetroClash.Logic;
 using RetroGames.Helpers;
 
-namespace RetroClashCore.Protocol.Messages.Client
+namespace RetroClash.Protocol.Messages.Client
 {
     public class SetDeviceTokenMessage : PiranhaMessage
     {
